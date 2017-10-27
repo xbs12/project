@@ -1,0 +1,427 @@
+@charset "utf-8";
+.top {
+	padding: 10px 0;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+	background-color: white;
+	height: 50px;
+}
+
+.top1 {
+	height: 50px;
+}
+
+.search {
+	background-color: #EAEBED;
+	border-radius: 5px;
+	height: 29px;
+}
+
+.search_icon {
+	background: url(../img/search.png) no-repeat;
+	width: 13px;
+	height: 29px;
+	background-position: 0 8px;
+	background-size: contain;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 8px 0 10px;
+}
+
+.hot {
+	font-size: 13px;
+	line-height: 29px;
+	color: #727273;
+}
+
+.self {
+	background-image: url(../img/logo.png);
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	background-size: 24px;
+	vertical-align: middle;
+}
+
+.shop {
+	background-image: url(../img/shopping.png);
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-size: 20px;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.am-slider-a1 .am-control-nav li a.am-active {
+	background-color: #D22147;
+	cursor: default;
+}
+
+.am-slider-a1 .am-control-nav li {
+	margin: 0 4px;
+	display: inline-block;
+}
+
+.am-slider-a1 .am-control-nav li a {
+	background-color: #ccccd2;
+	box-shadow: none;
+}
+
+
+/*轮播图*/
+
+.bot {
+	margin-bottom: 10px;
+}
+
+
+/*每日上新*/
+
+.pad {
+	padding: 0;
+}
+
+.pad img {
+	width: 100%;
+}
+
+.pad a {
+	color: #333;
+}
+
+.new_every {
+	text-align: center;
+	font-size: 12px;
+	margin-top: 0;
+}
+
+
+/*活动*/
+
+.padding {
+	padding: 0;
+}
+
+.img_w img {
+	width: 100%;
+}
+
+.active_1 {
+	margin-bottom: 10px;
+}
+
+
+/*手机限时抢购*/
+
+.icon {
+	display: inline-block;
+	background: url(../img/icon.png) no-repeat;
+}
+
+.stampede {
+	padding-top: 15px;
+	width: 100%;
+}
+
+.stampede_title {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 8px;
+}
+
+.icon_a {
+	display: inline-block;
+	background-size: 105px 25px;
+	width: 17px;
+	height: 17px;
+	background-position: -20px 0;
+	vertical-align: middle;
+	margin-right: 3px;
+}
+
+.stampede_word {
+	color: #000;
+	font-size: 16px;
+	vertical-align: middle;
+}
+
+.time {
+	width: 100%;
+	position: relative;
+}
+
+.time_a {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	margin-top: -38px;
+	color: white;
+}
+
+.count_down {
+	display: inline-block;
+	width: 22px;
+}
+
+.time_a1 {
+	font-size: 1.875rem;
+	text-align: center;
+	font-weight: 500;
+	margin-bottom: 16px;
+}
+
+.time_a2 {
+	margin: 0 auto;
+	width: 30%;
+	border-radius: 30px;
+	border: 1px solid #FFFFFF;
+	text-align: center;
+	line-height: 28px;
+}
+
+.time:after {
+	content: "";
+	position: absolute;
+	left: 20px;
+	bottom: -1px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #fff;
+}
+
+.padding_1 {
+	padding: 3px;
+}
+
+.goods_ra {
+	padding: 7px;
+}
+
+.goods_details {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.goods_name {
+	font-size: 13px;
+	color: #333;
+	line-height: 15px;
+	height: 31px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 0;
+	text-align: center;
+}
+
+.prices {
+	text-align: center;
+	margin: 0;
+}
+
+.price {
+	font-size: 13px;
+	color: #f02b2b;
+}
+
+.ago_price {
+	font-size: 10px;
+	color: #848689;
+	text-decoration: line-through;
+}
+
+
+/*专题推荐*/
+
+.icon_b {
+	display: inline-block;
+	background-size: 105px 25px;
+	width: 17px;
+	height: 17px;
+	background-position: -42px 0;
+	vertical-align: middle;
+	margin-right: 3px;
+}
+
+
+/*热门市场*/
+
+.icon_d {
+	display: inline-block;
+	background-size: 105px 25px;
+	width: 17px;
+	height: 17px;
+	background-position: -64px 0;
+	vertical-align: middle;
+	margin-right: 3px;
+}
+
+
+/*全球好物精选*/
+
+.icon_c {
+	display: inline-block;
+	background-size: 105px 25px;
+	width: 17px;
+	height: 17px;
+	background-position: -85px 0;
+	vertical-align: middle;
+	margin-right: 3px;
+}
+
+.earth_title {
+	width: 100%;
+	text-align: center;
+	margin-top: 27px;
+	margin-bottom: 5px;
+}
+
+.goods_list {
+	padding: 3px 7px;
+	background-color: #f8f8f8;
+}
+
+.padding_2 {
+	padding: 3px;
+}
+
+.a_href {
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.goods_introduce {
+	padding: 5px 8px 8px;
+	font-size: 13px;
+	background-color: #FFFFFF;
+}
+
+.goods_introduce p {
+	margin: 0;
+}
+
+.int {
+	margin-bottom: 3px;
+	height: 31px;
+	overflow: hidden;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.int a {
+	color: #333333;
+}
+
+.past_price {
+	font-size: 12px;
+	color: #999;
+}
+
+.now_price {
+	color: #d22147;
+	font-size: 13px;
+}
+
+.discount {
+	margin-left: 4px;
+	color: #dd1e47;
+	border: 1px solid;
+	padding: 0 2px;
+	border-radius: 2px;
+	background-color: #fff;
+	font-size: 11px;
+	vertical-align: 1px;
+	display: inline-block;
+}
+
+.pos {
+	position: absolute;
+	left: 3px;
+	top: 3px;
+	width: 2.8rem;
+	height: 2.8rem;
+	background-color: #f38e51;
+	text-align: center;
+}
+
+.pos_a {
+	display: inline-block;
+	width: 2.1rem;
+	color: #fff;
+	font-size: 10px;
+	line-height: 15px;
+	text-align: center;
+}
+
+
+/*别拖了，到底了*/
+
+.kaola {
+	padding: 15px 0;
+	text-align: center;
+}
+
+.kaola_a {
+	display: inline-block;
+	background: url(../img/kaola.png) no-repeat;
+	height: 16px;
+	width: 16px;
+	margin-right: 5px;
+	background-size: 16px 16px;
+	vertical-align: middle;
+}
+
+.kaola_b {
+	font-size: 13px;
+	color: #999;
+	vertical-align: middle;
+}
+
+
+/*页脚*/
+
+.am-footer-default .am-footer-switch {
+	font-weight: normal;
+}
+
+.foot_p {
+	padding: 0 10px;
+	font-size: 13px;
+}
+
+
+/*返回顶部*/
+
+.outline {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	color: #fff;
+	border-radius: 20px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.outline i {
+	display: block;
+}
+
+.outline_a {
+	font-size: 12px;
+	position: absolute;
+	top: 15px;
+	left: 9px;
+}
+
+.am-gotop-fixed {
+	position: fixed;
+	right: 15px;
+	bottom: 10px;
+	z-index: 1010;
+	opacity: 0;
+	width: 40px;
+	min-height: 32px;
+	overflow: hidden;
+	text-align: center;
+}

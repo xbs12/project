@@ -1,0 +1,261 @@
+<!doctype html>
+<html class="no-js">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Hello Amaze UI</title>
+
+		<!-- Set render engine for 360 browser -->
+		<meta name="renderer" content="webkit">
+
+		<!-- No Baidu Siteapp-->
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+		<link rel="icon" type="image/png" href="assets/i/favicon.png">
+
+		<!-- Add to homescreen for Chrome on Android -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
+
+		<!-- Add to homescreen for Safari on iOS -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+		<link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+
+		<!-- Tile icon for Win8 (144x144 + tile color) -->
+		<meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+		<meta name="msapplication-TileColor" content="#0e90d2">
+
+		<link rel="stylesheet" href="assets/css/amazeui.min.css">
+		<link rel="stylesheet" href="assets/css/app.css">
+
+		<!--css样式-->
+		<link rel="stylesheet" type="text/css" href="css/order.css" />
+	</head>
+
+	<body>
+
+		<!--页头-->
+		<header data-am-widget="header" class="am-header am-header-default">
+			<div class="am-header-title">
+				<a href="#title-link" class="ever">
+					我的订单
+				</a>
+			</div>
+
+			<div class="am-header-right am-header-nav">
+				<a href="index.html" class="home"></a>
+				<a href="user_center.html" class="self"></a>
+			</div>
+		</header>
+
+		<!--选项卡-->
+		<div class="am-g tab">
+			<div class="am-u-sm-3 paddin">
+				<span class="paddin_ac">全部</span>
+			</div>
+			<div class="am-u-sm-3 paddin">
+				<span>待付款<b class="will_num">1</b></span>
+			</div>
+			<div class="am-u-sm-3 paddin">
+				<span>待发货</span>
+			</div>
+			<div class="am-u-sm-3 paddin">
+				<span>待收货</span>
+			</div>
+		</div>
+
+		<!--订单列表-->
+		<div class="content">
+			<div class="content1">
+				<ul>
+					<li>
+						<div class="order_top am-cf">
+							<div class="order_time am-fl">
+								2017-09-28 17:33:45
+							</div>
+							<div class="order_type am-fr">
+								等待付款
+							</div>
+						</div>
+						<div class="order_img am-cf">
+							<a class="am-fl" href="#">
+								<img class="img_shoes" src="img/order.jpg" />
+							</a>
+							<div class="shoes_name am-fl">
+								<a class="shoes_name1" href="#">
+									【限时购】NIKE 耐克 NIKE INCURSION MID 男子奥利奥休闲运动跑步鞋 917541-001
+								</a>
+								<a class="shoes_name2" href="#">
+									42&nbsp;黑白色
+								</a>
+							</div>
+							<div class="order_price am-fr">
+								<p class="order_price1">¥379.00</p>
+								<p class="order_price2">X1</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div class="order_go am-cf">
+					<a class="order_go1 am-fr" href="pay.html">
+						立即付款
+					</a>
+					<a class="order_go2 am-fr" href="#">
+						取消订单
+					</a>
+				</div>
+			</div>
+			<div class="content_a"></div>
+			<div class="content2">
+				<ul>
+					<li>
+						<div class="order_top am-cf">
+							<div class="order_time am-fl">
+								2017-09-28 17:33:45
+							</div>
+							<div class="order_type am-fr">
+								交易关闭
+							</div>
+						</div>
+						<div class="order_img am-cf">
+							<a class="am-fl" href="#">
+								<img class="img_shoes" src="img/order.jpg" />
+							</a>
+							<div class="shoes_name am-fl">
+								<a class="shoes_name1" href="#">
+									【限时购】NIKE 耐克 NIKE INCURSION MID 男子奥利奥休闲运动跑步鞋 917541-001
+								</a>
+								<a class="shoes_name2" href="#">
+									42&nbsp;黑白色
+								</a>
+							</div>
+							<div class="order_price am-fr">
+								<p class="order_price1">¥379.00</p>
+								<p class="order_price2">X1</p>
+							</div>
+						</div>
+						<div class="order_price_a am-cf">
+							<span class="am-fr">未付款</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+
+		<!--待支付-->
+		<div class="content diss">
+			<ul>
+				<li>
+					<div class="order_top am-cf">
+						<div class="order_time am-fl">
+							2017-09-28 17:33:45
+						</div>
+						<div class="order_type am-fr">
+							等待付款
+						</div>
+					</div>
+					<div class="order_img am-cf">
+						<a class="am-fl" href="#">
+							<img class="img_shoes" src="img/order.jpg" />
+						</a>
+						<div class="shoes_name am-fl">
+							<a class="shoes_name1" href="#">
+								【限时购】NIKE 耐克 NIKE INCURSION MID 男子奥利奥休闲运动跑步鞋 917541-001
+							</a>
+							<a class="shoes_name2" href="#">
+								42&nbsp;黑白色
+							</a>
+						</div>
+						<div class="order_price am-fr">
+							<p class="order_price1">¥379.00</p>
+							<p class="order_price2">X1</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="order_top am-cf">
+						<div class="order_time am-fl">
+							2017-09-28 17:33:45
+						</div>
+						<div class="order_type am-fr">
+							等待付款
+						</div>
+					</div>
+					<div class="order_img am-cf">
+						<a class="am-fl" href="#">
+							<img class="img_shoes" src="img/order.jpg" />
+						</a>
+						<div class="shoes_name am-fl">
+							<a class="shoes_name1" href="#">
+								【限时购】NIKE 耐克 NIKE INCURSION MID 男子奥利奥休闲运动跑步鞋 917541-001
+							</a>
+							<a class="shoes_name2" href="#">
+								42&nbsp;黑白色
+							</a>
+						</div>
+						<div class="order_price am-fr">
+							<p class="order_price1">¥379.00</p>
+							<p class="order_price2">X1</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<div class="order_go am-cf">
+				<a class="order_go1 am-fr" href="#">
+					立即付款
+				</a>
+				<a class="order_go2 am-fr" href="#">
+					取消订单
+				</a>
+			</div>
+		</div>
+
+		<!--待发货-->
+		<div class="content content3 diss">
+			<div class="futurn_see">
+				<i class="icon_4 icon_order"></i>
+				<p class="emttip">啊哦，您还没有相关订单～</p>
+			</div>
+		</div>
+
+		<!--待收货-->
+		<div class="content content3 diss">
+			<div class="futurn_see">
+				<i class="icon_4 icon_order"></i>
+				<p class="emttip">啊哦，您还没有相关订单～</p>
+			</div>
+		</div>
+
+		<!--[if (gte IE 9)|!(IE)]><!-->
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--<![endif]-->
+		<!--[if lte IE 8 ]>
+			<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+			<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+			<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+		<![endif]-->
+		<script src="assets/js/amazeui.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				//选项卡
+				$(".tab .paddin").click(function() {
+					$(".tab .paddin").find("span").removeClass("paddin_ac");
+					$(this).find("span").addClass("paddin_ac");
+
+					var index = $(this).index();
+					//隐藏所有的content
+					$(".content").hide();
+					$(".content").eq(index).show();
+				});
+			})
+		</script>
+	</body>
+
+</html>

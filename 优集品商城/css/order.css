@@ -1,0 +1,303 @@
+@charset "utf-8";
+.b_icon {
+	background: url(../img/b_order_details.png) no-repeat;
+	display: inline-block;
+}
+
+.b_orders_status {
+	margin: 0 auto;
+	margin-top: 62px;
+	color: #4A4A4A;
+	margin-bottom: 50px
+}
+
+.dash {
+	width: 98px;
+	height: 0px;
+	margin-left: 25px;
+	overflow-y: hidden;
+	border-top: 2px dashed #BEBDBB;
+}
+
+.p1 {
+	position: absolute;
+	right: 16px;
+	top: -16px;
+}
+
+.p2 {
+	position: absolute;
+	right: 110px;
+	top: -16px;
+}
+
+.p3 {
+	position: absolute;
+	right: 205px;
+	top: -16px;
+}
+
+.b_status_main ul li {
+	margin-left: 48px;
+}
+
+.b_status_main ul li.on {
+	color: #e74c3c;
+}
+
+.b_status_main ul li em {
+	width: 19px;
+	height: 19px;
+	position: absolute;
+	top: -24px;
+	left: 35%;
+	background-image: url(../img/b_order_1.png);
+	background-size: 100% 100%;
+}
+
+.b_status_main ul li em.on {
+	background: url(../img/b_order_2.png);
+	color: #e74c3c;
+	background-size: 100% 100%;
+}
+
+.b_order_details {
+	margin: 0 auto;
+	width: 350px;
+}
+
+.b_order_details h5 {
+	font-size: 1.67em;
+}
+
+.b_order_details p {
+	font-size: 18px;
+	color: #4A4A4A;
+	margin-top: 10px;
+}
+
+.b_icon1 {
+	background-size: auto 522px;
+	background-position: 0 -170px;
+	width: 85px;
+	height: 75px;
+	margin-right: 28px;
+}
+
+.b_good_msg {
+	margin-top: 60px;
+}
+
+.b_item_title {
+	height: 42px;
+	background: #F8F8F8;
+	text-indent: 12px;
+	width: 100%;
+	line-height: 42px;
+}
+
+.b_item_title b {
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 42px;
+	color: #000000;
+}
+
+.b_pay_way {
+	padding-top: 80px;
+	padding-left: 20px;
+	font-size: 14px;
+	color: #4A4A4A;
+}
+
+.b_have_msg {
+	margin-top: 26px;
+	margin-bottom: 42px;
+	padding-left: 20px;
+	font-size: 14px;
+	color: #4A4A4A;
+}
+
+.b_have_msg span {
+	margin-right: 16px;
+}
+
+.b_item_title b {
+	display: inline-block;
+}
+
+.b_item_title .b_msg {
+	width: 244px;
+	text-align: right;
+}
+
+.b_item_title .b_property {
+	width: 300px;
+	text-align: right;
+}
+
+.b_item_title .b_price {
+	width: 175px;
+	text-align: right;
+}
+
+.b_item_title .b_num {
+	width: 175px;
+	text-align: right;
+}
+
+.b_item_title .b_tol {
+	width: 175px;
+	text-align: right;
+}
+
+.b_p_status {
+	border-bottom: 1px dashed #4A4A4A;
+	height: 38px;
+	line-height: 38px;
+	margin-top: 22px;
+	font-size: 13px;
+	color: #4A4A4A;
+}
+
+.b_pack {
+	background: url(../img/b_pack_bg.png) no-repeat;
+	display: inline-block;
+	width: 50px;
+	height: 24px;
+	background-size: 100% 100%;
+	text-align: center;
+	line-height: 24px;
+}
+
+.b_gogo {
+	font-size: 13px;
+	color: #4A4A4A;
+	margin-left: 12px;
+}
+
+.b_nono {
+	display: inline;
+	margin-right: 50px;
+	font-weight: normal;
+	font-size: 13px;
+	color: #E74C3C;
+	line-height: 34px;
+}
+
+.b_pack_logistics {
+	height: 40px;
+	line-height: 40px;
+	background: #F8F8F8;
+	color: #4A4A4A;
+}
+
+.b_pack_logistics img {
+	position: absolute;
+	left: 14px;
+	top: 12px;
+}
+
+.b_pack_logistics a {
+	display: inline;
+	margin-right: 45px;
+	color: #828282
+}
+
+.b_pack_logistics span {
+	margin-left: 30px;
+}
+
+.b_pack_logistics .b_time {
+	margin-left: 40px;
+}
+
+.b_goods_img {
+	margin-right: 25px;
+}
+
+.b_goods_img1 {
+	width: 90px;
+	height: 90px;
+}
+
+.b_dl {
+	margin-left: 14px;
+	margin-top: 20px;
+	color: #4A4A4A;
+	font-size: 14px;
+}
+
+.b_name {
+	width: 340px;
+	padding-top: 25px;
+	line-height: 16px;
+}
+
+.b_property1 {
+	width: 168px;
+	height: 56px;
+}
+
+.b_price1 {
+	padding-top: 38px;
+	width: 119px;
+	text-align: right;
+	line-height: 16px;
+}
+
+.b_num1 {
+	width: 150px;
+	padding-top: 35px;
+	text-align: right;
+}
+
+.b_tol1 {
+	width: 192px;
+	padding-top: 35px;
+	text-align: right;
+}
+
+.b_coupons_main {
+	min-height: 196px;
+	background: #F8F8F8;
+	padding-top: 36px;
+	overflow: hidden;
+	font-size: 13px;
+	color: #4A4A4A;
+	line-height: 22px
+}
+
+.b_coupons_main dl {
+	padding-right: 50px;
+	margin-bottom: 25px;
+	float: right;
+	clear: both;
+}
+
+.b_label {
+	text-align: right;
+	width: 75px;
+}
+
+.b_money {
+	min-width: 76px;
+	text-align: right;
+}
+
+.b_actual_m {
+	float: right;
+	clear: both;
+	display: inline;
+	font-size: 18px;
+	color: #e74c3c;
+	margin-bottom: 28px;
+	margin-right: 51px;
+}
+
+.b_total {
+	display: inline-block;
+	width: 103px;
+	padding-left: 13px;
+	text-align: right;
+}

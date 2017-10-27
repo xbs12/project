@@ -1,0 +1,711 @@
+<!doctype html>
+<html class="no-js">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>商品详情</title>
+
+		<!-- Set render engine for 360 browser -->
+		<meta name="renderer" content="webkit">
+
+		<!-- No Baidu Siteapp-->
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+		<link rel="icon" type="image/png" href="assets/i/favicon.png">
+
+		<!-- Add to homescreen for Chrome on Android -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
+
+		<!-- Add to homescreen for Safari on iOS -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+		<link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+
+		<!-- Tile icon for Win8 (144x144 + tile color) -->
+		<meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+		<meta name="msapplication-TileColor" content="#0e90d2">
+
+		<link rel="stylesheet" href="assets/css/amazeui.min.css">
+		<link rel="stylesheet" href="assets/css/app.css">
+
+		<link rel="stylesheet" type="text/css" href="css/amazeui.address.min.css" />
+
+		<!--swiper样式-->
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+
+		<!--css样式-->
+		<link rel="stylesheet" type="text/css" href="css/details.css" />
+	</head>
+
+	<body>
+		<!--页头-->
+		<header data-am-widget="header" class="am-header am-header-default header_line fix">
+			<div class="am-header-left am-header-nav" id="go_back">
+				<a href="#left-link" class="">
+					<i class="icon_de icon_re"></i>
+				</a>
+			</div>
+
+			<div class="am-header-title" data-am-scrollspynav="{offsetTop: 45}">
+				<a href="#top" class="ever ever_a">
+					商品
+				</a>
+				<a href="#eval" class="ever">
+					评价
+				</a>
+				<a href="#eval1" class="ever">
+					推荐
+				</a>
+				<a href="#details" class="ever">
+					详情
+				</a>
+			</div>
+
+			<div class="am-header-right am-header-nav">
+				<a href="index.html" class="home"></a>
+			</div>
+		</header>
+		<div class="header_h"></div>
+
+		<!--商品轮播图-->
+		<div class="banner_box" id="top">
+			<div data-am-widget="slider" class="am-slider am-slider-a1" data-am-slider='{"directionNav":false}'>
+				<ul class="am-slides">
+					<li class="slides_s">
+						<img src="img/details_1.jpg" />
+					</li>
+					<li class="slides_s">
+						<img src="img/details_2.jpg" />
+					</li>
+					<li class="slides_s">
+						<img src="img/details_3.jpg" />
+					</li>
+					<li class="slides_s">
+						<img src="img/details_4.jpg" />
+					</li>
+					<li class="slides_s">
+						<img src="img/details_5.jpg" />
+					</li>
+					<li class="slides_s">
+						<img src="img/details_6.jpg" />
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!--价格及商品说明-->
+		<div class="de_say">
+			<div class="n_price">
+				<span class="prices">¥<span class="prices_num">188</span></span>
+				<span class="price">单价¥94.00</span>
+				<span class="price">特价</span>
+			</div>
+			<div class="minute">
+				<div class="minute_top">
+					2包装&nbsp;|&nbsp;【官方直采】Merries 花王妙而舒 L 54片/包 2包装 纸尿裤/尿不湿
+				</div>
+				<div class="minute_m">
+					【新老包装随机发货】腰贴式棉柔弹性设计，温柔呵护宝宝娇嫩肌肤~凹凸透气柔点网层设计，让每根纤维都含植物精华，有效预防和控制尿布疹~更有变色尿显、棉柔魔术贴等贴心设计，妈妈们好评如潮！9-14千克宝宝使用哦~
+				</div>
+				<div class="plane">
+					<img src="img/nation_japan.png" />
+					<span>日本品牌</span>
+					<img src="img/myself.png" />
+					<span>网易自营</span>
+					<img src="img/plane.png" />
+					<span>跨境商品</span>
+				</div>
+			</div>
+		</div>
+
+		<!--地址-->
+		<div class="address">
+			<div class="address_a" id="address_a">
+				<span class="address_a1">配&nbsp;&nbsp;送：</span>
+				<span>至</span>
+				<i class="icon_de icon_address"></i>
+				<span id="address_b">青岛市南区</span>
+				<i class="icon_de icon_arrows"></i>
+			</div>
+			<div class="address_a">
+				<span class="address_a1">运&nbsp;&nbsp;费：</span>
+				<span>满88元免运费</span>
+				<i class="icon_de icon_arrows"></i>
+			</div>
+			<div class="address_a am-cf">
+				<span class="address_a1 am-fl">说&nbsp;&nbsp;明：</span>
+				<ul class="am-cf">
+					<li class="txt relative am-fl">商品税费</li>
+					<li class="txt relative am-fl">假一赔十</li>
+					<li class="txt relative am-fl">不支持7天无理由退货</li>
+					<li class="txt relative am-fl">自营保税仓发货</li>
+				</ul>
+				<i class="icon_de icon_arrows"></i>
+			</div>
+		</div>
+
+		<!--评价-->
+		<div class="eval">
+			<span class="eval_line"></span>
+			<div class="eval_title">
+				<i class="icon_de icon_eval"></i>
+				<span class="eval_title1">评价</span>
+			</div>
+		</div>
+		<div class="eval_box" id="eval">
+			<a href="#">
+				<div class="eval_box_t">
+					其他小伙伴们说 (59293)
+					<i class="icon_de icon_arrows1"></i>
+				</div>
+			</a>
+			<!-- Swiper -->
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide am-cf eval_p">
+						<div class="am-fl eval_p1">
+							<div class="head">
+								<img src="img/head_1.jpeg" />
+								<span>愿***风</span>
+							</div>
+							<div class="eval_content">
+								很好，买考拉花王纸尿裤不后悔，宝宝9个半月了，一直在用，爷爷奶奶刚开始还不怎么认同，用纸尿裤省去了洗尿布衣服的时间了，就是方便！还得再继续买呀，之前在别的平台买花王纸尿裤宝宝红屁股几次，在考拉买花王纸尿裤从来没有红屁股，U型 E型 S型都用过，没什么差别稍微薄厚嘛宝宝尿2次 3次就必须换了，版型一点不影响使用！
+							</div>
+						</div>
+						<div class="am-fl eval_p2">
+							<img src="img/eval_img.jpeg" />
+							<div class="what_img">9张图</div>
+						</div>
+					</div>
+					<div class="swiper-slide am-cf eval_p">
+						<div class="am-fl eval_p1">
+							<div class="head">
+								<img src="img/head_1.jpeg" />
+								<span>愿***风</span>
+							</div>
+							<div class="eval_content">
+								很好，买考拉花王纸尿裤不后悔，宝宝9个半月了，一直在用，爷爷奶奶刚开始还不怎么认同，用纸尿裤省去了洗尿布衣服的时间了，就是方便！还得再继续买呀，之前在别的平台买花王纸尿裤宝宝红屁股几次，在考拉买花王纸尿裤从来没有红屁股，U型 E型 S型都用过，没什么差别稍微薄厚嘛宝宝尿2次 3次就必须换了，版型一点不影响使用！
+							</div>
+						</div>
+						<div class="am-fl eval_p2">
+							<img src="img/eval_img.jpeg" />
+							<div class="what_img">3张图</div>
+						</div>
+					</div>
+					<div class="swiper-slide am-cf eval_p">
+						<div class="am-fl eval_p1">
+							<div class="head">
+								<img src="img/head_1.jpeg" />
+								<span>愿***风</span>
+							</div>
+							<div class="eval_content">
+								很好，买考拉花王纸尿裤不后悔，宝宝9个半月了，一直在用，爷爷奶奶刚开始还不怎么认同，用纸尿裤省去了洗尿布衣服的时间了，就是方便！还得再继续买呀，之前在别的平台买花王纸尿裤宝宝红屁股几次，在考拉买花王纸尿裤从来没有红屁股，U型 E型 S型都用过，没什么差别稍微薄厚嘛宝宝尿2次 3次就必须换了，版型一点不影响使用！
+							</div>
+						</div>
+						<div class="am-fl eval_p2">
+							<img src="img/eval_img.jpeg" />
+							<div class="what_img">4张图</div>
+						</div>
+					</div>
+					<div class="swiper-slide eval_p_a">
+						<a href="#">
+							<div class="eval_more">
+								<div class="eval_more_a">
+									<p>
+										<span class="eval_more1">查看更多</span>
+									</p>
+									<p class="eval_more2">See more</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--推荐-->
+		<div class="eval">
+			<span class="eval_line"></span>
+			<div class="eval_title">
+				<i class="icon_de icon_eval_g"></i>
+				<span class="eval_title1">推荐</span>
+			</div>
+		</div>
+		<div class="refer_box" id="eval1">
+			<div class="refer_box_t">
+				商品品牌
+			</div>
+			<div class="refer_box_i am-cf">
+				<a href="#" class="am-fl">
+					<img src="img/refer.jpg" />
+				</a>
+				<div class="am-fl">
+					<p class="refer_name">Merries 花王妙而舒</p>
+					<p class="refer_num">在售商品<span>56</span>件</p>
+				</div>
+				<div class="refer_box_3 am-fr">
+					<i class="icon_de icon_in"></i>
+					<span>进入品牌</span>
+				</div>
+			</div>
+			<!-- Swiper -->
+			<div class="swiper-container1">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide refer_c">
+						<a href="details.html">
+							<div class="refer_img">
+								<img src="img/refer2.jpg" />
+								<p class="refer_de">Gerber 嘉宝 切达奶酪泡芙条 42克</p>
+								<p class="refer_price">
+									<span class="refer_price1">¥42</span>
+									<span class="refer_price2">¥55</span>
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class="swiper-slide refer_c">
+						<a href="details.html">
+							<div class="refer_img">
+								<img src="img/refer3.jpg" />
+								<p class="refer_de">Gerber 嘉宝 大米米糊 一段 227克</p>
+								<p class="refer_price">
+									<span class="refer_price1">¥42</span>
+									<span class="refer_price2">¥59</span>
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class="swiper-slide refer_c">
+						<a href="details.html">
+							<div class="refer_img">
+								<img src="img/refer4.jpg" />
+								<p class="refer_de">Gerber 嘉宝 婴幼儿香蕉草莓燕麦米粉 3段 227克 </p>
+								<p class="refer_price">
+									<span class="refer_price1">¥42</span>
+									<span class="refer_price2">¥59</span>
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class="swiper-slide refer_c">
+						<a href="details.html">
+							<div class="refer_img">
+								<img src="img/refer5.jpg" />
+								<p class="refer_de">Gerber 嘉宝 星星泡芙 蓝莓口味 42克</p>
+								<p class="refer_price">
+									<span class="refer_price1">¥42</span>
+									<span class="refer_price2">¥59</span>
+								</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--小考拉推荐-->
+		<div class="refer_box">
+			<div class="refer_box_t">
+				小考拉推荐
+			</div>
+			<!-- Swiper -->
+			<div class="swiper-container1">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide refer_c">
+						<a href="details.html">
+							<div class="refer_img">
+								<img src="img/refer_goods1.jpg" />
+								<p class="refer_de">【官方直采】Merries 花王妙而舒 L 54片/包 4包装 纸尿裤/尿不湿 </p>
+								<p class="refer_price">
+									<span class="refer_price1">¥336</span>
+									<span class="refer_price2">¥820</span>
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class="swiper-slide refer_c">
+						<a href="details.html">
+							<div class="refer_img">
+								<img src="img/refer6.jpg" />
+								<p class="refer_de">Gerber 嘉宝混合水果味酸奶小溶溶豆 宝宝零食 28克</p>
+								<p class="refer_price">
+									<span class="refer_price1">¥36</span>
+									<span class="refer_price2">¥48</span>
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class="swiper-slide refer_c">
+						<a href="details.html">
+							<div class="refer_img">
+								<img src="img/refer7.jpg" />
+								<p class="refer_de">EARTH'S BEST 有机燕麦米粉 227克</p>
+								<p class="refer_price">
+									<span class="refer_price1">¥49</span>
+									<span class="refer_price2">¥89</span>
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class="swiper-slide refer_c">
+						<a href="details.html">
+							<div class="refer_img">
+								<img src="img/refer8.jpg" />
+								<p class="refer_de">HiPP 喜宝有机小米米粉 350g/盒 新老包装随机发货</p>
+								<p class="refer_price">
+									<span class="refer_price1">¥55</span>
+									<span class="refer_price2">¥68</span>
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class="swiper-slide refer_c">
+						<a href="details.html">
+							<div class="refer_img">
+								<img src="img/refer9.jpg" />
+								<p class="refer_de">EARTH'S BEST 进口婴幼儿有机高铁辅食大米粉 175克/盒 2盒装</p>
+								<p class="refer_price">
+									<span class="refer_price1">¥126</span>
+									<span class="refer_price2">¥198</span>
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class="swiper-slide refer_c">
+						<a href="details.html">
+							<div class="refer_img">
+								<img src="img/refer10.jpg" />
+								<p class="refer_de">Gerber 嘉宝 婴幼儿香蕉苹果草莓米粉 4段 227克</p>
+								<p class="refer_price">
+									<span class="refer_price1">¥42</span>
+									<span class="refer_price2">¥59</span>
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class="swiper-slide refer_c">
+						<a href="details.html">
+							<div class="refer_img">
+								<img src="img/refer11.jpg" />
+								<p class="refer_de">EARTH'S BEST 进口婴幼儿有机高铁辅食大米粉 175克/盒/p>
+									<p class="refer_price">
+										<span class="refer_price1">¥78</span>
+										<span class="refer_price2">¥98</span>
+									</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--图文详情-->
+		<div class="eval">
+			<span class="eval_line"></span>
+			<div class="eval_title">
+				<i class="icon_de icon_eval_i"></i>
+				<span class="eval_title1">图文详情</span>
+			</div>
+		</div>
+		<p class="p" id="details">
+			<img src="img/img_word1.jpg" />
+		</p>
+		<p class="p">
+			<img src="img/img_word2.jpg" />
+		</p>
+		<p class="p">
+			<img src="img/img_word3.jpg" />
+		</p>
+		<p class="p">
+			<img src="img/img_word4.jpg" />
+		</p>
+		<p class="p">
+			<img src="img/img_word5.jpg" />
+		</p>
+		<p class="p">
+			<img src="img/img_word6.jpg" />
+		</p>
+		<p class="p">
+			<img src="img/img_word7.jpg" />
+		</p>
+		<p class="p">
+			<img src="img/img_word8.jpg" />
+		</p>
+		<p class="p">
+			<img src="img/img_word9.jpg" />
+		</p>
+		<p class="p">
+			<img src="img/img_word10.jpg" />
+		</p>
+		<p class="p">
+			<img src="img/img_word11.jpg" />
+		</p>
+		<p class="p">
+			<img src="img/img_word12.jpg" />
+		</p>
+		<p class="p">
+			<img src="img/img_word13.jpg" />
+		</p>
+		<p class="p">
+			<img src="img/img_word14.jpg" />
+		</p>
+		<p class="p">
+			<img src="img/img_word15.jpg" />
+		</p>
+		<p class="p">
+			<img src="img/img_word16.jpg" />
+		</p>
+		<p class="p">
+			<img src="img/img_word17.jpg" />
+		</p>
+		<p class="p">
+			<img src="img/img_word18.jpg" />
+		</p>
+		<p class="p">
+			<img src="img/img_word19.jpg" />
+		</p>
+
+		<p class="p">
+			<img src="img/img_word20.jpg" />
+		</p>
+		<p class="p">
+			<img src="img/img_word21.jpg" />
+		</p>
+		<p class="p">
+			<img src="img/img_word22.jpg" />
+		</p>
+		<p class="p">
+			<img src="img/img_word23.jpg" />
+		</p>
+		<p class="p">
+			<img src="img/img_word24.jpg" />
+		</p>
+		<p class="p">
+			<img src="img/img_word25.jpg" />
+		</p>
+		<p class="p">
+			<img src="img/img_word26.jpg" />
+		</p>
+		<p class="p">
+			<img src="img/img_word27.jpg" />
+		</p>
+		<p class="p">
+			<img src="img/img_word28.jpg" />
+		</p>
+
+		<!--页脚-->
+		<footer data-am-widget="footer" class="am-footer am-footer-default" data-am-footer="{  }">
+			<div class="am-footer-switch">
+				<span class="am-footer-ysp foot_p" data-rel="mobile" data-am-modal="{target: '#am-switch-mode'}">
+					<a href="#">首页</a>
+				</span>
+				<span class="am-footer-divider"> | </span>
+				<span class="am-footer-ysp foot_p" data-rel="mobile" data-am-modal="{target: '#am-switch-mode'}">
+					<a href="#">客户端</a>
+				</span>
+				<span class="am-footer-divider"> | </span>
+				<span class="am-footer-ysp foot_p" data-rel="mobile" data-am-modal="{target: '#am-switch-mode'}">
+					<a href="#">登录</a>
+				</span>
+				<span class="am-footer-divider"> | </span>
+				<span class="am-footer-ysp foot_p" data-rel="mobile" data-am-modal="{target: '#am-switch-mode'}">
+					<a href="#">注册</a>
+				</span>
+			</div>
+			<div class="am-footer-miscs ">
+				<p>版权所有@1996-2017</p>
+				<p>京ICP备13033158</p>
+			</div>
+		</footer>
+
+		<!--立即购买一栏-->
+		<div class="buy am-cf">
+			<a class="buy_a am-fl" href="javascript:;">
+				<i class="icon_de icon_collect"></i>
+				<span class="collect">收藏</span>
+			</a>
+			<a class="buy_a1 am-fl" href="cart_shop1.html">
+				<i class="icon_de icon_car"></i>
+				<span class="collect">购物车</span>
+			</a>
+			<a class="buy_b am-fl" href="#">
+				加入购物车
+			</a>
+			<a class="buy_c am-fl" id="now_shop" href="#">
+				立即购买
+			</a>
+		</div>
+
+		<!--返回顶部-->
+		<div data-am-widget="gotop" class="am-gotop am-gotop-fixed">
+			<a href="#top" title="回到顶部">
+				<span class="am-gotop-title">回到顶部</span>
+				<div class="outline">
+					<i class="am-icon-angle-up"></i>
+					<span class="outline_a">顶部</span>
+				</div>
+
+			</a>
+		</div>
+
+		<!--规格选择-->
+		<div class="strandard">
+			<!--页头-->
+			<header data-am-widget="header" class="am-header am-header-default header_line">
+				<div class="am-header-left am-header-nav" id="hide">
+					<a href="#" class="">
+						<i class="icon4 icon_back"></i>
+					</a>
+				</div>
+
+				<div class="am-header-title">
+					<a href="#" class="ever ever_b">
+						规格选择
+					</a>
+				</div>
+			</header>
+
+			<!--产品-->
+			<div class="product am-cf">
+				<div class="am-fl">
+					<img src="img/refer_goods1.jpg" />
+				</div>
+				<div class="product_t am-fl">
+					<div class="product_t1">【官方直采】Merries 花王妙而舒 M 64片/包 4包装 纸尿裤/尿不湿</div>
+					<div class="product_t2">
+						<span class="product_t2_a">¥314</span>
+						<span class="product_t2_b">(库存充足)</span>
+					</div>
+				</div>
+			</div>
+
+			<!--选择数量-->
+			<div class="num">
+				<span class="num_w">数量</span>
+				<span class="num_box">
+					<span class="num_minus">-</span>
+				<input type="text" name="" id="" value="1" />
+				<span class="num_add">+</span>
+				</span>
+				<span class="limit">限购10件</span>
+			</div>
+		</div>
+
+		<!--[if (gte IE 9)|!(IE)]><!-->
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--<![endif]-->
+		<!--[if lte IE 8 ]>
+			<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+			<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+			<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+		<![endif]-->
+		<script src="assets/js/amazeui.min.js"></script>
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/iscroll.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/address.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+
+				//初始化 address:
+				$("#address_a").address({
+					prov: "山东省",
+					city: "青岛市",
+					district: "市南区",
+					scrollToCenter: true,
+					//footer: true,
+					selectEnd: function(json, address) {
+						console.log(json);
+						$("#address_a").find("#address_b").text(json.prov + json.city + json.district);
+					}
+				});
+
+				$(".ever").click(function() {
+					$(".ever").removeClass("ever_a");
+					$(this).addClass("ever_a");
+				});
+
+				var swiper = new Swiper('.swiper-container', {
+					slidesPerView: 1.5,
+					paginationClickable: true,
+					spaceBetween: 0,
+					freeMode: true
+				});
+
+				var swiper1 = new Swiper('.swiper-container1', {
+					slidesPerView: 2.5,
+					paginationClickable: true,
+					spaceBetween: 0,
+					freeMode: true
+				});
+
+				//收藏
+				var a = 0;
+				$(".buy_a").click(function() {
+					if(a == 0) {
+						a = 1;
+						$(".buy_a").find(".collect").text("已收藏");
+						$(".buy_a").find(".icon_collect").css("background-position-x", "-139px");
+						$(".buy_a").find(".icon_collect").css("background-position-y", "-33px");
+					} else {
+						a = 0;
+						$(".buy_a").find(".collect").text("收藏");
+						$(".buy_a").find(".icon_collect").css("background-position-x", "-139px");
+						$(".buy_a").find(".icon_collect").css("background-position-y", "-5px");
+					}
+				});
+
+				//返回上一步
+				$("#go_back").click(function() {
+					history.back();
+				});
+
+				//马上购买一栏
+				$("#now_shop").click(function() {
+					$(".strandard").css("display", "block");
+					$(".buy_a1").css("display", "none");
+					$(".buy_b").css("display", "none");
+					$(this).css("width", "85%");
+					if($(this).text() == "确认购买") {
+						$(this).prop("href", "submit_order.html")
+					}
+					$(this).text("确认购买");
+					//					$(this).prop("href","submit_order.html")
+				});
+
+				$("#hide").click(function() {
+					$(".strandard").css("display", "none");
+					$(".buy_a1").css("display", "block");
+					$(".buy_b").css("display", "block");
+					$(".buy_c").css("width", "35%");
+					$("#now_shop").text("立即购买");
+				});
+
+				//				$(document).scroll(function() {
+				//					console.log($(this).scrollTop());
+				//					var sc = $(this).scrollTop();
+				//					if(sc!=0){
+				//						$("header").addClass("fix");
+				//						$(".header_h").css("height","45px");
+				//					}else{
+				//						$("header").removeClass("fix");
+				//						$(".header_h").css("height","0px");
+				//					}
+				//					$(".ever_d").click(function() {
+				//						$("body").scrollTop(0);
+				//					});
+				//					$(".ever_e").click(function() {
+				//						$("body").scrollTop(704);
+				//					})
+				//				})
+
+			})
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,232 @@
+@charset "utf-8";
+body {
+	background-color: #F1F1F1;
+}
+
+.icon8 {
+	display: inline-block;
+	background: url(../img/icon8.png) no-repeat;
+}
+
+
+/*页头*/
+
+.am-header {
+	height: 45px;
+	line-height: 40px;
+}
+
+.am-header-default {
+	background-color: #FFFFFF;
+}
+
+.am-header-default .am-header-nav>a {
+	display: inline-block;
+	min-width: 22px;
+	text-align: center;
+	color: #eee;
+}
+
+.am-header-default .am-header-title a {
+	color: #000;
+	font-size: 18px;
+}
+
+.am-header-default .am-header-nav>a+a {
+	margin-left: 10px;
+}
+
+.ever {
+	vertical-align: middle;
+}
+
+.home {
+	background: url(../img/home.png) no-repeat;
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+	background-size: 22px;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.self {
+	background-image: url(../img/logo.png);
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	background-size: 24px;
+	vertical-align: middle;
+}
+
+
+/*用户*/
+
+.user {
+	width: 100%;
+	margin: 10px 0;
+}
+
+.user_bg {
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+.user_h {
+	padding: 30px 0;
+	text-align: center;
+}
+
+.user_h img {
+	width: 82px;
+	height: 82px;
+	border-radius: 50%;
+	border: 1px solid #d9d9d9;
+}
+
+
+/*用户信息*/
+
+input:not([type=radio]):not([type=checkbox]) {
+	vertical-align: inherit;
+}
+
+.message {
+	background-color: #FFFFFF;
+}
+
+.message_li {
+	padding: 0 15px;
+	font-size: 14px;
+	border-bottom: 1px solid #d9d9d9;
+	color: #333;
+}
+
+.message_li span {
+	line-height: 50px;
+}
+
+.message_li input {
+	border: none;
+	outline: none;
+	color: #999;
+	height: 40px;
+	width: 200px;
+}
+
+.message_li1 {
+	display: inline-block;
+	margin-right: 25px;
+	width: 64px;
+}
+
+.message_li2 input {
+	display: none;
+}
+
+.message_li2 .icon_se {
+	width: 18px;
+	height: 18px;
+	background-size: 18.2401px 233.28px;
+	background-position: 0px -215.04px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.message_li2 .icon_se.checked {
+	background-position: 0px -92.16px;
+}
+
+.message_li3 {
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.message_li3 input {
+	display: none;
+}
+
+.message_li3 .icon_se {
+	width: 18px;
+	height: 18px;
+	background-size: 18.2401px 233.28px;
+	background-position: 0px -215.04px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.message_li3 .icon_se.checked {
+	background-position: 0px -92.16px;
+}
+
+.message_li:last-child {
+	border-bottom: none;
+}
+
+
+/*收货地址管理*/
+
+.address {
+	margin-top: 10px;
+	background-color: #FFFFFF;
+}
+
+.order_a {
+	padding: 0 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+.order_a1 {
+	height: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+}
+
+.order_a2 {
+	height: 50px;
+	line-height: 50px;
+	color: #999;
+	vertical-align: middle;
+}
+
+.order_a2 i {
+	vertical-align: middle;
+}
+
+.username1 {
+	display: inline-block;
+	background: url(../img/right.png) no-repeat;
+	width: 22px;
+	height: 22px;
+	background-position: 0 0;
+	background-size: 100% auto;
+	vertical-align: middle;
+}
+
+
+/*取消保存*/
+
+.marg {
+	margin-top: 10px;
+}
+
+.pad {
+	padding: 0;
+}
+
+.left {
+	background: #fff;
+	font-size: 14px;
+	color: #333333;
+	line-height: 50px;
+	text-align: center;
+}
+
+.right {
+	background: #b4282d;
+	font-size: 14px;
+	color: #fff;
+	line-height: 50px;
+	text-align: center;
+}

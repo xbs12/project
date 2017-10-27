@@ -1,0 +1,738 @@
+<!doctype html>
+<html class="no-js">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>首页</title>
+
+		<!-- Set render engine for 360 browser -->
+		<meta name="renderer" content="webkit">
+
+		<!-- No Baidu Siteapp-->
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+		<link rel="icon" type="image/png" href="assets/i/favicon.png">
+
+		<!-- Add to homescreen for Chrome on Android -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
+
+		<!-- Add to homescreen for Safari on iOS -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+		<link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+
+		<!-- Tile icon for Win8 (144x144 + tile color) -->
+		<meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+		<meta name="msapplication-TileColor" content="#0e90d2">
+
+		<link rel="stylesheet" href="assets/css/amazeui.min.css">
+		<link rel="stylesheet" href="assets/css/app.css">
+
+		<!--css样式-->
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
+
+	<body>
+		<!--页头-->
+		<header>
+			<div class="am-g top">
+				<div class="am-u-sm-9">
+					<a href="search.html">
+						<div class="search">
+							<i class="search_icon"></i>
+							<span class="hot">dw女表</span>
+						</div>
+					</a>
+				</div>
+				<div class="am-u-sm-3">
+					<a href="user_center.html" class="self"></a>
+					<a href="cart_shop1.html" class="shop"></a>
+				</div>
+			</div>
+		</header>
+		<div class="top1">
+
+		</div>
+
+		<!--轮播图-->
+		<div data-am-widget="slider" class="am-slider am-slider-a1 bot" data-am-slider='{"directionNav":false}'>
+			<ul class="am-slides">
+				<li>
+					<img src="img/banner1.jpg" />
+				</li>
+				<li>
+					<img src="img/banner2.jpg" />
+				</li>
+				<li>
+					<img src="img/banner3.jpg" />
+				</li>
+				<li>
+					<img src="img/banner4.jpg" />
+				</li>
+				<li>
+					<img src="img/banner5.jpg" />
+				</li>
+				<li>
+					<img src="img/banner6.jpg" />
+				</li>
+				<li>
+					<img src="img/banner7.jpg" />
+				</li>
+				<li>
+					<img src="img/banner2.jpg" />
+				</li>
+			</ul>
+		</div>
+
+		<!--每日上新-->
+		<div class="am-g">
+			<div class="am-u-sm-3 pad">
+				<a href="everyday.html">
+					<img src="img/new1.png" />
+					<p class="new_every">每日上新</p>
+				</a>
+			</div>
+			<div class="am-u-sm-3 pad">
+				<a href="nations.html">
+					<img src="img/new2.png" />
+					<p class="new_every">国家馆</p>
+				</a>
+			</div>
+			<div class="am-u-sm-3 pad">
+				<a href="guarantee.html">
+					<img src="img/new3.png" />
+					<p class="new_every">考拉保障</p>
+				</a>
+			</div>
+			<div class="am-u-sm-3 pad">
+				<a href="team.html">
+					<img src="img/new4.jpg" />
+					<p class="new_every">拼团</p>
+				</a>
+			</div>
+		</div>
+
+		<!--活动-->
+		<div class="am-g active_1">
+			<div class="am-u-sm-6 padding img_w">
+				<a href="team.html">
+					<img src="img/active1.jpg" />
+				</a>
+			</div>
+			<div class="am-u-sm-6 padding img_w">
+				<a href="team.html">
+					<img src="img/active2.jpg" />
+				</a>
+			</div>
+		</div>
+
+		<!--手机限时抢购-->
+		<div class="stampede">
+			<div class="stampede_title">
+				<i class="icon icon_a"></i>
+				<span class="stampede_word">手机限时抢购</span>
+			</div>
+			<div class="time img_w">
+				<a href="#">
+					<img src="img/stampede.jpg" />
+					<div class="time_a">
+						<p class="time_a1">距本场结束还有
+							<span class="count_down" id="time">00</span>
+							<span>:</span>
+							<span class="count_down" id="time1">00</span>
+							<span>:</span>
+							<span class="count_down" id="time2">00</span>
+						</p>
+						<p class="time_a2">入场疯抢&nbsp;></p>
+					</div>
+				</a>
+			</div>
+			<div class="goods_ra">
+				<div class="am-g">
+					<div class="am-u-sm-4 padding_1 img_w">
+						<a href="details.html">
+							<div class="">
+								<img src="img/goods2.jpg" />
+							</div>
+							<div class="goods_details">
+								<p class="goods_name">PHILIPS 飞利浦 IPL脉冲光脱毛器 彩光激光脱毛器 SC1995</p>
+								<p class="prices">
+									<span class="price">¥1599</span>
+									<span class="ago_price">¥1999</span>
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class="am-u-sm-4 padding_1 img_w">
+						<a href="details.html">
+							<div class="">
+								<img src="img/goods2_1.jpg" />
+							</div>
+							<div class="goods_details">
+								<p class="goods_name">COSME DECORTE 黛珂 高机能保湿祛痘紫苏水 150毫升</p>
+								<p class="prices">
+									<span class="price">¥399</span>
+									<span class="ago_price">¥599</span>
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class="am-u-sm-4 padding_1 img_w">
+						<a href="details.html">
+							<div class="">
+								<img src="img/goods2_2.jpg" />
+							</div>
+							<div class="goods_details">
+								<p class="goods_name">Freeplus 芙丽芳丝 保湿修护柔润化妆水 130毫升 深水炸弹来袭</p>
+								<p class="prices">
+									<span class="price">¥19</span>
+									<span class="ago_price">¥99</span>
+								</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--专题推荐-->
+		<div class="recommeds">
+			<div class="stampede_title">
+				<i class="icon icon_b"></i>
+				<span class="stampede_word">手机限时抢购</span>
+			</div>
+			<div class="time img_w">
+				<a href="#">
+					<img src="img/recommend.jpg" />
+				</a>
+			</div>
+			<div class="goods_ra">
+				<div class="am-g">
+					<div class="am-u-sm-4 padding_1 img_w">
+						<a href="details.html">
+							<div class="">
+								<img src="img/goods4.jpg" />
+							</div>
+							<div class="goods_details">
+								<p class="goods_name">【官方直采】花王妙而舒 M 64片/包 2包装 纸尿裤/尿不湿</p>
+								<p class="prices">
+									<span class="price">¥170</span>
+									<span class="ago_price">¥359</span>
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class="am-u-sm-4 padding_1 img_w">
+						<a href="details.html">
+							<div class="">
+								<img src="img/goods5.jpg" />
+							</div>
+							<div class="goods_details">
+								<p class="goods_name">Papa recipe 春雨 蜂蜜补水保湿面膜 25克/片 10片装 当红爆款</p>
+								<p class="prices">
+									<span class="price">¥75</span>
+									<span class="ago_price">¥129</span>
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class="am-u-sm-4 padding_1 img_w">
+						<a href="details.html">
+							<div class="">
+								<img src="img/goods6.jpg" />
+							</div>
+							<div class="goods_details">
+								<p class="goods_name">Lauríer 乐而雅 花王S系列超薄日用护翼卫生巾 25厘米 19片</p>
+								<p class="prices">
+									<span class="price">¥29</span>
+									<span class="ago_price">¥59</span>
+								</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--热门市场-->
+		<div class="mark">
+			<div class="stampede_title">
+				<i class="icon icon_d"></i>
+				<span class="stampede_word">热门市场</span>
+			</div>
+			<div class="am-g">
+				<div class="am-u-sm-6 img_w padding">
+					<a href="#">
+						<img src="img/mark1.jpg" />
+					</a>
+				</div>
+				<div class="am-u-sm-6 img_w padding">
+					<a href="#">
+						<img src="img/mark2.jpg" />
+					</a>
+				</div>
+				<div class="am-u-sm-6 img_w padding">
+					<a href="#">
+						<img src="img/mark3.jpg" />
+					</a>
+				</div>
+				<div class="am-u-sm-6 img_w padding">
+					<a href="#">
+						<img src="img/mark4.jpg" />
+					</a>
+				</div>
+				<div class="am-u-sm-6 img_w padding">
+					<a href="#">
+						<img src="img/mark5.jpg" />
+					</a>
+				</div>
+				<div class="am-u-sm-6 img_w padding">
+					<a href="#">
+						<img src="img/mark6.jpg" />
+					</a>
+				</div>
+				<div class="am-u-sm-6 img_w padding">
+					<a href="#">
+						<img src="img/mark7.jpg" />
+					</a>
+				</div>
+				<div class="am-u-sm-6 img_w padding">
+					<a href="#">
+						<img src="img/mark8.jpg" />
+					</a>
+				</div>
+				<div class="am-u-sm-6 img_w padding">
+					<a href="#">
+						<img src="img/mark9.jpg" />
+					</a>
+				</div>
+				<div class="am-u-sm-6 img_w padding">
+					<a href="#">
+						<img src="img/mark10.jpg" />
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!--全球好物精选-->
+		<div class="earth">
+			<div class="earth_title">
+				<i class="icon icon_c"></i>
+				<span class="stampede_word">手机限时抢购</span>
+			</div>
+			<div class="goods_list">
+				<div class="am-g">
+					<div class="am-u-sm-6 padding_2 img_w">
+						<div class="a_href">
+							<a href="details.html">
+								<img src="img/list1.jpg" />
+							</a>
+						</div>
+						<div class="goods_introduce">
+							<p class="int">
+								<a href="details.html">MEDIHEAL 美迪恵尔 N.M.F针剂水库保湿面膜 10片/盒 补水网红</a>
+							</p>
+							<p class="past_price">
+								国内价<del>¥169</del>
+							</p>
+							<p class="now_price">
+								售价¥89
+								<span class="discount">5.3折</span>
+							</p>
+						</div>
+						<div class="pos">
+							<span class="pos_a">满额减</span>
+						</div>
+					</div>
+					<div class="am-u-sm-6 padding_2 img_w">
+						<div class="a_href">
+							<a href="details.html">
+								<img src="img/list2.jpg" />
+							</a>
+						</div>
+						<div class="goods_introduce">
+							<p class="int">
+								<a href="details.html">Papa recipe 春雨 蜂蜜补水保湿面膜 25克/片 10片装 当红爆款</a>
+							</p>
+							<p class="past_price">
+								国内价<del>¥129</del>
+							</p>
+							<p class="now_price">
+								售价¥85
+								<span class="discount">6.6折</span>
+							</p>
+						</div>
+						<div class="pos">
+							<span class="pos_a">N元任选</span>
+						</div>
+					</div>
+					<div class="am-u-sm-6 padding_2 img_w">
+						<div class="a_href">
+							<a href="details.html">
+								<img src="img/list3.jpg" />
+							</a>
+						</div>
+						<div class="goods_introduce">
+							<p class="int">
+								<a href="details.html">DIA 迪亚天天 每日坚果混合坚果仁 25克/包 30包礼盒装</a>
+							</p>
+							<p class="past_price">
+								国内价<del>¥129</del>
+							</p>
+							<p class="now_price">
+								售价¥118
+								<span class="discount">5.0折</span>
+							</p>
+						</div>
+					</div>
+					<div class="am-u-sm-6 padding_2 img_w">
+						<div class="a_href">
+							<a href="details.html">
+								<img src="img/list4.jpg" />
+							</a>
+						</div>
+						<div class="goods_introduce">
+							<p class="int">
+								<a href="details.html">LA 桑蚕丝文胸纯色无钢圈肩带舒适真丝文胸内衣女士性感胸罩薄款</a>
+							</p>
+							<p class="past_price">
+								国内价<del>¥400</del>
+							</p>
+							<p class="now_price">
+								售价¥86
+								<span class="discount">1.8折</span>
+							</p>
+						</div>
+						<div class="pos">
+							<span class="pos_a">满额减</span>
+						</div>
+					</div>
+					<div class="am-u-sm-6 padding_2 img_w">
+						<div class="a_href">
+							<a href="details.html">
+								<img src="img/list5.jpg" />
+							</a>
+						</div>
+						<div class="goods_introduce">
+							<p class="int">
+								<a href="details.html">鲜百年 智利进口牛油果 8个装 单果重160-180克</a>
+							</p>
+							<p class="past_price">
+								国内价<del>¥99</del>
+							</p>
+							<p class="now_price">
+								售价¥59.9
+								<span class="discount">6.1折</span>
+							</p>
+						</div>
+					</div>
+					<div class="am-u-sm-6 padding_2 img_w">
+						<div class="a_href">
+							<a href="details.html">
+								<img src="img/list6.jpg" />
+							</a>
+						</div>
+						<div class="goods_introduce">
+							<p class="int">
+								<a href="details.html">LAMY 凌美 safari 狩猎者 F尖钢笔 磨砂黑</a>
+							</p>
+							<p class="past_price">
+								国内价<del>¥199</del>
+							</p>
+							<p class="now_price">
+								售价¥119
+								<span class="discount">6.0折</span>
+							</p>
+						</div>
+					</div>
+					<div class="am-u-sm-6 padding_2 img_w">
+						<div class="a_href">
+							<a href="details.html">
+								<img src="img/list7.jpg" />
+							</a>
+						</div>
+						<div class="goods_introduce">
+							<p class="int">
+								<a href="details.html">FIRSTMIX【10双装】薄款棉底防滑短丝袜</a>
+							</p>
+							<p class="past_price">
+								国内价<del>¥146</del>
+							</p>
+							<p class="now_price">
+								售价¥39
+								<span class="discount">2.7折</span>
+							</p>
+						</div>
+						<div class="pos">
+							<span class="pos_a">N元任选</span>
+						</div>
+					</div>
+					<div class="am-u-sm-6 padding_2 img_w">
+						<div class="a_href">
+							<a href="details.html">
+								<img src="img/list8.jpg" />
+							</a>
+						</div>
+						<div class="goods_introduce">
+							<p class="int">
+								<a href="details.html">JBL C100SI 立体声入耳式耳机 手机通话版</a>
+							</p>
+							<p class="past_price">
+								国内价<del>¥99</del>
+							</p>
+							<p class="now_price">
+								售价¥88
+								<span class="discount">8.9折</span>
+							</p>
+						</div>
+					</div>
+					<div class="am-u-sm-6 padding_2 img_w">
+						<div class="a_href">
+							<a href="details.html">
+								<img src="img/list9.jpg" />
+							</a>
+						</div>
+						<div class="goods_introduce">
+							<p class="int">
+								<a href="details.html">FIRSTMIX【6双装】夏季薄款打底连裤袜丝袜女</a>
+							</p>
+							<p class="past_price">
+								国内价<del>¥98</del>
+							</p>
+							<p class="now_price">
+								售价¥45
+								<span class="discount">4.7折</span>
+							</p>
+						</div>
+						<div class="pos">
+							<span class="pos_a">N元任选</span>
+						</div>
+					</div>
+					<div class="am-u-sm-6 padding_2 img_w">
+						<div class="a_href">
+							<a href="details.html">
+								<img src="img/list10.jpg" />
+							</a>
+						</div>
+						<div class="goods_introduce">
+							<p class="int">
+								<a href="details.html">【官方直采】Merries 花王妙而舒 L 54片/包 2包装 纸尿裤/尿不湿 </a>
+							</p>
+							<p class="past_price">
+								国内价<del>¥399</del>
+							</p>
+							<p class="now_price">
+								售价¥188
+								<span class="discount">单包¥94</span>
+							</p>
+						</div>
+					</div>
+					<div class="am-u-sm-6 padding_2 img_w">
+						<div class="a_href">
+							<a href="details.html">
+								<img src="img/list11.jpg" />
+							</a>
+						</div>
+						<div class="goods_introduce">
+							<p class="int">
+								<a href="details.html">【品牌直采】【支持胶原蛋白生成】Swisse 护发护肤护甲片 100片/瓶</a>
+							</p>
+							<p class="past_price">
+								国内价<del>¥216</del>
+							</p>
+							<p class="now_price">
+								售价¥116
+								<span class="discount">5.4折</span>
+							</p>
+						</div>
+					</div>
+					<div class="am-u-sm-6 padding_2 img_w">
+						<div class="a_href">
+							<a href="details.html">
+								<img src="img/list12.jpg" />
+							</a>
+						</div>
+						<div class="goods_introduce">
+							<p class="int">
+								<a href="details.html">【澳洲本土版】Devondale 德运 高钙脱脂成人牛奶粉 1000克/袋 2袋</a>
+							</p>
+							<p class="past_price">
+								国内价<del>¥199</del>
+							</p>
+							<p class="now_price">
+								售价¥108
+								<span class="discount">5.3折</span>
+							</p>
+						</div>
+						<div class="pos">
+							<span class="pos_a">N元任选</span>
+						</div>
+					</div>
+					<div class="am-u-sm-6 padding_2 img_w">
+						<div class="a_href">
+							<a href="details.html">
+								<img src="img/list13.jpg" />
+							</a>
+						</div>
+						<div class="goods_introduce">
+							<p class="int">
+								<a href="details.html">LAMY 凌美 狩猎者恒星通用Z28吸墨器 10克</a>
+							</p>
+							<p class="past_price">
+								国内价<del>¥50</del>
+							</p>
+							<p class="now_price">
+								售价¥33
+								<span class="discount">6.6折</span>
+							</p>
+						</div>
+					</div>
+					<div class="am-u-sm-6 padding_2 img_w">
+						<div class="a_href">
+							<a href="details.html">
+								<img src="img/list14.jpg" />
+							</a>
+						</div>
+						<div class="goods_introduce">
+							<p class="int">
+								<a href="details.html">【2份赠围裙1件】顶诺意大利面牛肉酱套装 牛肉酱120克*5包 意面550克</a>
+							</p>
+							<p class="past_price">
+								国内价<del>¥99</del>
+							</p>
+							<p class="now_price">
+								售价¥58
+								<span class="discount">5.9折</span>
+							</p>
+						</div>
+					</div>
+					<div class="am-u-sm-6 padding_2 img_w">
+						<div class="a_href">
+							<a href="details.html">
+								<img src="img/list15.jpg" />
+							</a>
+						</div>
+						<div class="goods_introduce">
+							<p class="int">
+								<a href="details.html">Adidas 阿迪达斯 Stan Smith三叶草绿尾小白鞋运动板鞋 蓝尾 金/粉尾 </a>
+							</p>
+							<p class="past_price">
+								国内价<del>¥899</del>
+							</p>
+							<p class="now_price">
+								售价¥599
+								<span class="discount">6.7折</span>
+							</p>
+						</div>
+					</div>
+					<div class="am-u-sm-6 padding_2 img_w">
+						<div class="a_href">
+							<a href="details.html">
+								<img src="img/list16.jpg" />
+							</a>
+						</div>
+						<div class="goods_introduce">
+							<p class="int">
+								<a href="details.html">【官方直采】Merries 花王妙而舒 XL 38片/包 3包装 拉拉裤/学步裤</a>
+							</p>
+							<p class="past_price">
+								国内价<del>¥429</del>
+							</p>
+							<p class="now_price">
+								售价¥256
+								<span class="discount">5.3折</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--别脱了，我是有底线的-->
+		<div class="kaola">
+			<span class="kaola_a"></span>
+			<span class="kaola_b">别脱了，我是有底线的</span>
+		</div>
+
+		<!--页脚-->
+		<footer data-am-widget="footer" class="am-footer am-footer-default" data-am-footer="{  }">
+			<div class="am-footer-switch">
+				<span class="am-footer-ysp foot_p" data-rel="mobile" data-am-modal="{target: '#am-switch-mode'}">
+					<a href="index.html">首页</a>
+				</span>
+				<span class="am-footer-divider"> | </span>
+				<span class="am-footer-ysp foot_p" data-rel="mobile" data-am-modal="{target: '#am-switch-mode'}">
+					<a href="#">客户端</a>
+				</span>
+				<span class="am-footer-divider"> | </span>
+				<span class="am-footer-ysp foot_p" data-rel="mobile" data-am-modal="{target: '#am-switch-mode'}">
+					<a href="login.html">登录</a>
+				</span>
+				<span class="am-footer-divider"> | </span>
+				<span class="am-footer-ysp foot_p" data-rel="mobile" data-am-modal="{target: '#am-switch-mode'}">
+					<a href="registrant.html">注册</a>
+				</span>
+			</div>
+			<div class="am-footer-miscs ">
+				<p>版权所有@1996-2017</p>
+				<p>京ICP备13033158</p>
+			</div>
+		</footer>
+
+		<!--返回顶部-->
+		<div data-am-widget="gotop" class="am-gotop am-gotop-fixed">
+			<a href="#top" title="回到顶部">
+				<span class="am-gotop-title">回到顶部</span>
+				<div class="outline">
+					<i class="am-icon-angle-up"></i>
+					<span class="outline_a">顶部</span>
+				</div>
+
+			</a>
+		</div>
+
+		<!--[if (gte IE 9)|!(IE)]><!-->
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--<![endif]-->
+		<!--[if lte IE 8 ]>
+			<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+			<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+			<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+		<![endif]-->
+		<script src="assets/js/amazeui.min.js"></script>
+		<script type="text/javascript">
+			window.onload = function() {
+				var oTime = document.getElementById("time");
+				var oTime1 = document.getElementById("time1");
+				var oTime2 = document.getElementById("time2");
+
+				var future = new Date(2020, 0, 0, 0, 0, 0, 0);
+				var now = new Date();
+
+				var ms = future - now;
+				console.log(ms)
+				var timer = null;
+				timer = setInterval(function() {
+					ms = ms - 1000;
+					var hour = parseInt((ms / (60 * 60 * 1000)) % 24);
+					var minutes = parseInt((ms / (60 * 1000)) % 60);
+					var s = parseInt((ms / 1000) % 60);
+
+					function fix(num, length) {
+						return('' + num).length < length ? ((new Array(length + 1)).join('0') + num).slice(-length) : '' + num;
+					}
+					oTime.innerHTML = fix(hour, 2);
+					oTime1.innerHTML = fix(minutes, 2);
+					oTime2.innerHTML = fix(s, 2);
+				}, 1000)
+			}
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,276 @@
+@charset "utf-8";
+.d-brandtop {
+	width: 100%;
+	height: 55px;
+	background: #F8F8F8;
+	margin-bottom: 32px;
+}
+.d-brandtop a{
+	color: #000000;
+}
+
+.d-brandtop_container {
+	width: 1150px;
+	margin: 0 auto;
+	line-height: 55px;
+	font-size: 14px;
+}
+
+.d-brand-message {
+	height: 324px;
+	background: #ffffff;
+	-webkit-box-shadow: 0 0 10px #CCC;
+	-moz-box-shadow: 0 0 10px #CCC;
+	-ms-box-shadow: 0 0 10px #CCC;
+	box-shadow: 0 0 10px #CCC;
+	margin-bottom: 58px;
+}
+
+.d-brand-message dl dd {
+	width: 514px;
+	height: auto;
+	padding-left: 40px;
+	display: inline;
+	padding-top: 20px;
+}
+
+.d-brand-message dl dd div {
+	height: 120px;
+	overflow: hidden;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.d-brand-message dl dd div img {
+	width: 120px;
+	height: 120px;
+}
+
+.d-brand-message dl dd .d-brand_name {
+	margin-top: 0px;
+	position: absolute;
+	left: 141px;
+	top: 36px;
+	color: #4A4A4A;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.d-brand_address {
+	/*float: left;
+		padding-left: 22px;
+		height: 18px;
+		line-height: 18px;
+		color: #828282;
+		font-size: 13px;
+		margin-top: 54px;
+		/*background: url(../img/icon_bg.png) no-repeat;
+		background-position: 0px -107px;*/
+	/*position: absolute;
+		left: 141px;
+	    top: 70px;*/
+	*/
+}
+
+.d-brand-message dl dd h3 {
+	font-size: 14px;
+	color: #4A4A4A;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+.d-brand-message p {
+	font-size: 13px;
+	color: #828282;
+	line-height: 24px;
+	height: 120px;
+	padding-right: 30px;
+	overflow-y: auto;
+}
+
+.d-brand-message dl dt {
+	width: 576px;
+	height: 100%;
+}
+
+.d-goods_show {
+	width: 1150px;
+	overflow: hidden;
+}
+
+.d-goods_num {
+	height: 45px;
+}
+
+.d-goods_num p {
+	line-height: 45px;
+	float: left;
+	color: #8C8C8C;
+	font-size: 14px
+}
+
+.d-sort_method {
+	float: right;
+	padding-right: 15px;
+	height: 45px;
+	position: relative;
+	width: 128px;
+	cursor: pointer;
+}
+
+.d-sort_method ul {
+	height: auto;
+	width: 124px;
+	position: absolute;
+	left: 0px;
+	overflow: hidden;
+	background: white;
+	z-index: 100;
+}
+
+.d-sort_method ul li {
+	text-align: center;
+	font-size: 14px;
+	border-left: 2px solid #F2F2F2;
+	border-right: 2px solid #F2F2F2;
+	height: 45px;
+	line-height: 45px;
+	color: #4A4A4A;
+}
+
+.d-sort_method ul li a {
+	display: block;
+}
+
+.d-sort_method span {
+	position: absolute;
+	right: 0px;
+	top: 10px;
+	width: 18px;
+	height: 24px;
+	padding-top: 6px;
+	background-position: left center;
+}
+
+.d-sort_method span img {
+	width: 12px;
+	height: 7px;
+	-moz-transition: -moz-transform 0.2s;
+	-webkit-transition: -webkit-transform 0.2s;
+}
+
+.d-sort_method span.open img {
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+.d-sort_method ul li.on {
+	background: #F8F8F8;
+}
+
+.d-all_goods {
+	width: 1150px;
+	overflow: hidden;
+}
+
+.d-goods_list {
+	padding-top: 50px;
+	width: 1170px;
+	height: auto;
+	border-top: 1px solid #F8F8F8;
+}
+
+.d-goods_list dl {
+	width: 222px;
+	height: 340px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.d-goods_list dl dt {
+	width: 222px;
+	height: 222px;
+	position: relative;
+	margin-bottom: 0px;
+	overflow: hidden;
+}
+
+.d-goods_list dl:hover img {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+
+
+.d-goods_list dl dt img {
+	display: block;
+	width: 222px;
+	height: 222px;
+}
+
+.d-goods_list dl dt .d-mask {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	z-index: 2000;
+	height: 100%;
+	opacity: 0.1;
+	background: #BEBDBB;
+	display: none;
+}
+.d-goods_list dl dd{
+	padding: 16px 16px 0 16px;
+	height: 90px;
+}
+.d-goods_list dl dd.hov {
+	background: #F3F3F3;
+}
+
+.d-goods_list dl dd p .d-goods_brand {
+	margin-bottom: 4px;
+	font-size: 13px;
+	height: 14px;
+	line-height: 14px;
+	overflow: hidden;
+}
+
+.d-goods_brand a {
+	color: #4A4A4A;
+	font-size: 13px;
+}
+
+.d-goods_introduce {
+	line-height: 16px;
+	font-size: 12px;
+	height: 32px;
+	margin-bottom: 8px;
+	overflow: hidden;
+}
+
+.d-goods_introduce a {
+	color: #828282;
+}
+
+.d-goods_price {
+	height: 20px;
+	font-size: 12px;
+}
+
+.d-goods_price .d-special_price {
+	color: #e74c3c;
+	margin-right: 15px;
+}
+
+.d-del_price {
+	color: #828282;
+	text-decoration: line-through
+}

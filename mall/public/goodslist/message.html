@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+		<title>编辑商品</title>
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/goods.css" />
+		<link rel="stylesheet" type="text/css" href="css/goods_released.css" />
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	</head>
+
+	<body>
+		<!--<div class="main">
+			<div class="left_main">
+				<div class="goods_sign">
+					<img src="img/goods.png" />
+					<div class="goods_sign_title">
+						商品
+					</div>
+				</div>
+				<ul class="nav nav-pills nav-stacked list_a">
+					<li role="presentation">
+						<a href="#">商品发布</a>
+					</li>
+					<li role="presentation">
+						<a href="#">淘宝导入</a>
+					</li>
+					<li role="presentation">
+						<a href="#">出售中的商品</a>
+					</li>
+					<li role="presentation">
+						<a href="#">仓库中的商品</a>
+					</li>
+					<li role="presentation">
+						<a href="#">关联样式</a>
+					</li>
+					<li role="presentation">
+						<a href="#">商品规格</a>
+					</li>
+					<li role="presentation">
+						<a href="#">图片空间</a>
+					</li>
+				</ul>
+			</div>
+			<div class="right_main">
+
+			</div>
+		</div>-->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-2 left_main">
+					<div class="row">
+						<div class="col-lg-4"></div>
+						<div class="col-lg-8 move_padding">
+							<div class="goods_sign">
+								<img src="img/goods.png" />
+								<div class="goods_sign_title">
+									商品
+								</div>
+							</div>
+							<ul class="list_a">
+								<li class="active_a">
+									<a href="#">商品发布</a>
+								</li>
+								<li>
+									<a href="#">淘宝导入</a>
+								</li>
+								<li>
+									<a href="#">出售中的商品</a>
+								</li>
+								<li>
+									<a href="#">仓库中的商品</a>
+								</li>
+								<li>
+									<a href="#">关联样式</a>
+								</li>
+								<li>
+									<a href="#">商品规格</a>
+								</li>
+								<li>
+									<a href="#">图片空间</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-9 right_main">
+					<div class="right_top">
+						<img src="img/conputers.png" />
+						<span>&nbsp;商家管理中心&nbsp;</span>
+						<i>&nbsp;>&nbsp;</i>
+						<span>&nbsp;商品&nbsp;</span>
+						<i>&nbsp;>&nbsp;</i>
+						<span>&nbsp;出售中的商品&nbsp;</span>
+					</div>
+					<div class="goods_edit">
+						编辑商品
+					</div>
+					<div class="goods_edit_line"></div>
+					<div class>
+						<table class="table table-bordered">
+							<tr>
+								<th class="tr_back" colspan="2">商品基本信息</th>
+							</tr>
+							<tr>
+								<td class="text-right" width="16%">
+									<span class="goods_need">*</span>
+									<span class="goods_message">商品分类:</span>
+								</td>
+								<td class="clearfix">
+									<form class="form" action="" method="post">
+										<select name="" id="find_first" class="form-control select_a fl">
+										</select>
+										<!--<select name="find2" id="find2" class="form-control select_a fl">
+										</select>
+										<select name="find3" id="find3" class="form-control select_a fl">
+										</select>-->
+										<input type="hidden" name="find1" id="find1" value="" />
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="text-right" width="16%">
+									<span class="goods_message">商品名称:</span>
+								</td>
+								<td>
+									<form class="form" action="">
+										<label class="sr-only" for="">GOODS NAME</label>
+										<input type="text" class="form-control input_text" name="goodsname" datatype="*3-50" errormsg="昵称至少3个字符,最多50个字符" nullmsg="请填写商品名称" sucmsg="ok" placeholder="商品名称" required />
+										<span class=""></span>
+									</form>
+									<span></span>
+									<div class="goods_name_re">
+										商品标题名称长度至少3个字符，最长50个汉字
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="text-right" width="16%">
+									<span class="goods_message">商品卖点:</span>
+								</td>
+								<td>
+									<form class="form" action="">
+										<label class="sr-only" for="">GOODS DETAILS</label>
+										<textarea name="selling" class="form-control input_text" rows="5" datatype="*0-150" errormsg="最多150个字符" nullmsg="请填写用户名" sucmsg="ok" required /></textarea>
+									</form>
+									<span></span>
+									<div class="goods_name_re">
+										商品卖点最长不能超过150个汉字
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="text-right" width="16%">
+									<span class="goods_need">*</span>
+									<span class="goods_message">商品价格:</span>
+								</td>
+								<td>
+									<form class="form-inline form">
+										<div class="form-group">
+											<label class="sr-only" for="exampleInputAmount">GOODS PRICE</label>
+											<div class="input-group">
+												<input type="text" name="price" class="form-control" id="price" datatype="/^-?[1-9]+(\.\d+)?$|^-?0(\.\d+)?$|^-?[1-9]+[0-9]*(\.\d+)?$/" errormsg="请输入数字" nullmsg="请填写商品价格" sucmsg="ok" required />
+												<div class="input-group-addon">元</div>
+											</div>
+											<span></span>
+										</div>
+									</form>
+									<div class="goods_name_re">
+										价格必须是0.01~99999999之间的数字，且不能高于市场价。
+									</div>
+									<div class="goods_name_re">
+										此价格为商品实际销售价格，如果商品存在价格，该价格显示最低价格
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="text-right" width="16%">
+									<span class="goods_need">*</span>
+									<span class="goods_message">市场价:</span>
+								</td>
+								<td>
+									<form class="form-inline form">
+										<div class="form-group">
+											<label class="sr-only" for="exampleInputAmount">GOODS PRICE</label>
+											<div class="input-group">
+												<input type="text" class="form-control" name="mark" id="mark" datatype="/^-?[1-9]+(\.\d+)?$|^-?0(\.\d+)?$|^-?[1-9]+[0-9]*(\.\d+)?$/" errormsg="请输入数字" nullmsg="请填写市场价格" sucmsg="ok" required />
+												<div class="input-group-addon">元</div>
+											</div>
+											<span></span>
+										</div>
+									</form>
+									<div class="goods_name_re">
+										市场价必须是0.01~99999999之间的数字，此价格仅为时长参考价，请根据实际情况认真填写。
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="text-right" width="16%">
+									<span class="goods_message">成本价:</span>
+								</td>
+								<td>
+									<form class="form-inline form">
+										<div class="form-group">
+											<label class="sr-only" for="exampleInputAmount">GOODS PRICE</label>
+											<div class="input-group">
+												<input type="text" class="form-control" id="" name="cost" datatype="/^-?[1-9]+(\.\d+)?$|^-?0(\.\d+)?$|^-?[1-9]+[0-9]*(\.\d+)?$/" errormsg="请输入数字" nullmsg="请填写商品成本" sucmsg="ok" required />
+												<div class="input-group-addon">元</div>
+											</div>
+											<span></span>
+										</div>
+									</form>
+									<div class="goods_name_re">
+										价格必须是0.01~99999999之间的数字，此价格为商户对所销售的商品实际成本价格进行备注记录，非必填选项，不会在前台销售页面中显示
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="text-right" width="16%">
+									<span class="goods_message">折扣:</span>
+								</td>
+								<td>
+									<form class="form-inline form">
+										<div class="form-group">
+											<label class="sr-only" for="exampleInputAmount">GOODS PRICE</label>
+											<div class="input-group">
+												<input type="text" class="form-control" id="discount" name="" disabled required />
+												<div class="input-group-addon">%</div>
+											</div>
+											<input type="hidden" name="discount" id="discount1" value="" />
+										</div>
+									</form>
+									<div class="goods_name_re">
+										根据销售价格与市场价比例自动生成不需要编辑
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="text-right" width="16%">
+									<span class="goods_need">*</span>
+									<span class="goods_message">商品库存:</span>
+								</td>
+								<td>
+									<form class="form" action="">
+										<label class="sr-only" for="">GOODS NUM</label>
+										<input type="text" name="repertory" class="form-control input_text1" datatype="n1-7" errormsg="请输入数字" nullmsg="请填写商品库存" sucmsg="ok" required />
+									</form>
+									<span></span>
+									<div class="goods_name_re">
+										商品库存必须为0-9999999之间的整数
+									</div>
+									<div class="goods_name_re">
+										若启用了库存配置，则系统自动计算商品的总数，此处无需卖家填写
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="text-right" width="16%">
+									<span class="goods_need">*</span>
+									<span class="goods_message">商家货号:</span>
+								</td>
+								<td>
+									<form class="form" action="">
+										<label class="sr-only" for="">GOODS NUM</label>
+										<input type="text" name="goodsnum" class="form-control input_text1" datatype="*1-20" errormsg="请输入正确的商品货号" nullmsg="请填写商品货号" sucmsg="ok" required />
+									</form>
+									<span></span>
+									<div class="goods_name_re">
+										商品货号是指定商户管理商品的序号，卖家不可见
+									</div>
+									<div class="goods_name_re">
+										最多可输入20个字符，支持输入中文、字母、数字、_、/、-和小数点
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="text-right" width="16%">
+									<span class="goods_message">商家主图:</span>
+								</td>
+								<td>
+									<div class="goods_imgm" id="goods_imgm"></div>
+									<form class="form" action="">
+
+										<input type="hidden" name="lgImg" id="lgImg" value="" />
+										<input type="hidden" name="mdImg" id="mdImg" value="" />
+
+										<label class="sr-only" for="">GOODS IMG</label>
+										<input name="button" type="button" id="btn1" onclick="myfile.click();" value="图片上传" />
+										<label class="sr-only" for="">GOODS IMG</label>
+										<input type="file" id="myfile" onchange="input1.value=this.value" style="display:none" />
+									</form>
+									<div class="goods_name_re">
+										上传商品默认主图，如多规格是将默认使用该图片或分规格上传规格主图：支持jpg、jif、png、格式上传或从图片空间选择，建议使用尺寸800*800像素以上、大小不超过1M的正方形图片，上传后的图片将会自动保存在图片空间的默认分类中
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="text-right" width="16%">
+									<span class="goods_message">商品轮播图:</span>
+								</td>
+								<td>
+									<form class="form clearfix" action="">
+										<div id="slides_img" class="slides_img clearfix pull-left">
+
+										</div>
+										<div class="input_img">
+											<img onclick="myfile1.click();" src="img/goods_roll.png" />
+										</div>
+										<label class="sr-only" for="">GOODS IMG</label>
+										<input type="file" id="myfile1" onchange="input1.value=this.value" style="display:none">
+
+										<!--隐藏数据-->
+										<input type="hidden" name="slideImg" id="slideImg" value="" />
+									</form>
+									<div class="goods_name_re">
+										上传商品默认主图，如多规格是将默认使用该图片或分规格上传规格主图：支持jpg、jif、png、格式上传或从图片空间选择，建议使用尺寸800*800像素以上、大小不超过1M的正方形图片，上传后的图片将会自动保存在图片空间的默认分类中
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="goods_message tr_back" colspan="2">商品详情描述</td>
+							</tr>
+							<tr>
+								<td class="text-right" width="16%">
+									<span class="goods_message">商品品牌:</span>
+								</td>
+								<td>
+									<form class="form" action="">
+										<label class="sr-only" for="">GOODS SIGN</label>
+										<input type="text" name="brand" class="form-control input_text1" datatype="*" errormsg="请输入正确的商品品牌" nullmsg="请填写商品品牌" sucmsg="ok" required />
+									</form>
+									<span></span>
+								</td>
+							</tr>
+							<tr>
+								<td class="text-right" width="16%">
+									<span class="goods_message">商品描述:</span>
+								</td>
+								<td>
+									<form class="form" action="">
+										<div id="editor">
+
+										</div>
+										<textarea id="detail" name="detail" style="display: none;"></textarea>
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="goods_message tr_back" colspan="2">商品物流信息</td>
+							</tr>
+							<tr>
+								<td class="text-right" width="16%">
+									<span class="goods_message">所在地:</span>
+								</td>
+								<td class="">
+									<form class="form clearfix" name="shareip" action="" method="post">
+										<select class="select form-control select_a fl" name="" id="s1">
+											<option></option>
+										</select>
+										<select class="select form-control select_a fl" name="" id="s2">
+											<option></option>
+										</select>
+										<select class="select form-control select_a fl" name="" id="s3">
+											<option></option>
+										</select>
+										<input id="address" name="address" type="hidden" value="" />
+									</form>
+								</td>
+							</tr>
+							<tr>
+								<td class="text-right" width="16%">
+									<span class="goods_message">运费:</span>
+								</td>
+								<td>
+									<form class="form-inline form" method="post">
+										<div class="form-group">
+											<label class="sr-only" for="exampleInputAmount">GOODS PRICE</label>
+											<div class="input-group">
+												<input type="text" name="freight" class="form-control" id="" placeholder="0" datatype="/^-?[1-9]+(\.\d+)?$|^-?0(\.\d+)?$|^-?[1-9]+[0-9]*(\.\d+)?$/" errormsg="请输入运费" nullmsg="请填写运费" sucmsg="ok" required />
+												<div class="input-group-addon">元</div>
+											</div>
+											<span></span>
+										</div>
+									</form>
+									<div class="goods_name_re">
+										运费设置为0元，前台商品将显示为免运费
+									</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div class="submit">
+						<form class="form" action="" method="post">
+							<input id="sub" class="btn btn-default btn-success btn_width" type="button" value="提交">
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-1"></div>
+		</div>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>-->
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/Validform_v5.3.2.js" type="text/javascript" charset="utf-8"></script>
+		<!--引入模板引擎-->
+		<script src="js/template-web.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/wangEditor.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/geo.js" type="text/javascript" charset="utf-8"></script>
+		<script id="tpl-user" type="text/html">
+			{{each data}}
+			<option value="{{$value.id}}">{{$value.name}}</option>
+			{{/each}}
+		</script>
+		<script type="text/javascript">
+			//表单序列化为对象
+			function serializeObject(form) {
+				var o = {};
+				$.each(form.serializeArray(), function(index) {
+					if(o[this['name']]) {
+						o[this['name']] = o[this['name']] + ";" + this['value'];
+					} else {
+						o[this['name']] = this['value'];
+					}
+				});
+				return o;
+			}
+		</script>
+		<script type="text/javascript">
+			var E = window.wangEditor
+			var editor = new E('#editor');
+			var $detail = $('#detail');
+			editor.customConfig.onchange = function(html) {
+				// 监控变化，同步更新到 textarea
+				$detail.val(html);
+			}
+
+			// 配置服务器端地址
+			editor.customConfig.uploadImgServer = '/api/upload/common/';
+
+			//自定义filenamme
+			editor.customConfig.uploadFileName = 'file';
+
+			editor.create();
+			// 初始化 textarea 的值
+			$detail.val(editor.txt.html());
+		</script>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+
+				//获取一级分类
+				getCatefirst(
+					//					function(result) {
+					//					//获取二级分类
+					//					getCatesub(result.data[0].id, "#find2", function(result) {
+					//						//获取数组第一项的三级分类
+					//						getCatesub(result.data[0].id, "#find3");
+					//					});
+					//				}
+				);
+
+				//				//获取二、三级分类信息
+				//				function getCatesub(id, selector, callback) {
+				//					$.getJSON("/api/getCategory/sub/?pId=" + id, function(result) {
+				//						if(result.status) {
+				//							var html = template("tpl-user", result);
+				//							$(selector).html(html);
+				//							//回调函数
+				//							if(typeof callback == "function") {
+				//								callback(result);
+				//							}
+				//						} else {
+				//							alert(result.msg);
+				//						}
+				//					});
+				//				}
+
+				//获取一级分类方法
+				function getCatefirst(callback) {
+					$.getJSON("/api/getCategory/first/", function(result) {
+						if(result.status) {
+							var html = template("tpl-user", result);
+							$("#find_first").html(html);
+
+							if(typeof callback == "function") {
+								callback(result);
+							}
+						} else {
+							alert(result.msg);
+						}
+					});
+				}
+
+				//				//一级：change事件
+				//				$("#find_first").change(function() {
+				//					var selectedId = $(this).val();
+				//					//获取二级分类
+				//					getCatesub(selectedId, "#find2", function(result) {
+				//						//获取数组第一项的三级菜单
+				//						getCatesub(result.data[0].id, "#find3");
+				//					});
+				//				})
+
+				//				//二级：change事件
+				//				$("#find2").change(function() {
+				//					var selectedId = $(this).val();
+				//					//获取三级分类
+				//					getCatesub(selectedId, "#find3");
+				//				})
+
+			})
+		</script>
+		<script type="text/javascript">
+			//ajax提交文件
+			$(document).ready(function() {
+
+				//图片上传
+				$("#myfile").change(function() {
+					var formData = new FormData();
+					//file对象
+					var oFile = this.files[0];
+					formData.append("file", oFile);
+					$.ajax({
+						type: "post",
+						url: "/api/upload/img/",
+						async: true,
+						contentType: false,
+						processData: false,
+						data: formData,
+						success: function(result) {
+							if(result.status) {
+								$(".goods_imgm").html('<img src="' + result.mdImg + '"/>')
+								$("#lgImg").val(result.lgImg);
+								$("#mdImg").val(result.mdImg);
+							} else {
+								alert(result.msg)
+							}
+						}
+					});
+
+				});
+
+				//轮播图
+				$("#myfile1").change(function() {
+					var formData = new FormData();
+					//file对象
+					var oFile = this.files[0];
+					formData.append("file", oFile);
+					$.ajax({
+						type: "post",
+						url: "/api/upload/slideimg/",
+						async: true,
+						contentType: false,
+						processData: false,
+						data: formData,
+						success: function(result) {
+							if(result.status) {
+								$("#slides_img").append('<div class="img pull-left relative"> <img src = "' + result.slideImg + '" / ><div class = "delete glyphicon glyphicon-remove" ></div></div>')
+								arr.push(result.slideImg);
+								console.log(arr);
+								$("#slideImg").val(arr);
+							} else {
+								alert(result.msg);
+							}
+						}
+					});
+				});
+
+				//轮播图删除--事件委托
+				var arr = new Array();
+				$("#slides_img").on("click", ".delete", function() {
+					var index = $(this).parent().index();
+					arr.splice(index, 1);
+					$(this).parent().remove();
+				})
+
+				$(".form").Validform({
+					tiptype: 2
+				});
+				var sub = $(".form").Validform();
+
+				//				省市区插件
+				setup();
+				preselect();
+				promptinfo();
+
+				function promptinfo() {
+					//				var address = $('#address').val();
+					var s1 = $('#s1').val();
+					var s2 = $('#s2').val();
+					var s3 = $('#s3').val();
+					return s1 + s2 + s3;
+				}
+
+				// 注册#ajax
+				$("#sub").click(function() {
+					/* Act on the event */
+
+					var price = parseFloat($("#price").val());
+					var mark = parseFloat($("#mark").val());
+
+					var tf;
+					if(price <= mark) {
+						tf = true;
+					} else {
+						tf = false;
+						alert("商品价格必须低于市场价！");
+					}
+
+					var dis = ((price / mark) * 100).toFixed(2);
+					$("#discount").val(dis);
+					$("#discount1").val(dis + "%");
+					console.log(dis)
+
+					$("#find1").val($("#find_first").find("option:selected").text());
+					console.log($("#find1").val($("#find_first").find("option:selected").text()))
+
+					$("#address").val(promptinfo());
+
+					var flag = sub.check();
+
+					if(flag && tf) {
+						//						var data = $(".form").serialize();
+						var data = serializeObject($(".form"));
+						console.log(data)
+						$.post('/users/sub/', data, function(result, textStatus, xhr) {
+							if(result.status) {
+								alert(result.msg);
+							}
+						});
+					}
+				});
+			});
+		</script>
+
+	</body>
+
+</html>

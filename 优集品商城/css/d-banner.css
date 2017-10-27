@@ -1,0 +1,126 @@
+@charset "utf-8";
+.d-box a {
+	text-decoration: none;
+	color: #4A4A4A;
+}
+
+.d-topModel img {
+	display: block;
+}
+
+.d-modelGoods {
+	min-width: 1150px;
+	margin: 0 auto;
+	height: auto;
+	border-top: 1px solid #f3f3f3;
+	background: #fff;
+}
+
+.d-goodsBox {
+	width: 920px;
+	height: auto;
+	margin: 30px auto 0;
+	overflow: hidden;
+	padding: 40px 0 40px 0;
+}
+
+.d-goodsList {
+	width: 920px;
+	height: auto;
+	overflow: hidden;
+}
+
+.d-goodsList .d-item {
+	width: 221px;
+	height: 313px;
+	float: left;
+	margin: 0 8px 16px 0;
+	overflow: hidden;
+	background: #fbfbfb;
+	position: relative;
+}
+
+.d-item img {
+	width: 221px;
+	height: 221px;
+	display: block;
+	border-radius: 6px;
+	background: #fff;
+}
+
+.d-box .d-descript {
+	width: 221px;
+	height: 100px;
+	padding-top: 4px
+}
+
+.d-box .d-descript h3 {
+	width: 100%;
+	height: 26px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 26px;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+
+.d-descript a {
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #b9b9b9;
+	font-weight: initial;
+}
+
+.d-descript p {
+	width: 221px;
+	height: 34px;
+	line-height: 18px;
+	font-size: 14px;
+	display: block;
+	overflow: hidden
+}
+
+.d-price {
+	width: 221px;
+	height: 22px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+
+.d-price strong {
+	width: 106px;
+	height: 20px;
+	display: block;
+	color: #fe8385;
+	font-size: 18px;
+	text-align: center;
+	font-weight: inherit;
+}
+
+.d-price em {
+	width: 100px;
+	height: 14px;
+	line-height: 14px;
+	display: block;
+	text-decoration: line-through;
+	float: left;
+	font-size: 12px;
+	margin-top: 4px;
+	color: #cfcfcf;
+	font-style: normal;
+}
+.d-clickModel_item{
+	font-size: 0;
+	height: auto;
+}
+.d-titleModel img{
+	display: block;
+	  
+	   width: 1150px;
+}
+.d-modeBottom img{
+	display: block;
+}

@@ -1,0 +1,173 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>邮箱登录</title>
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="icon" type="image/png" href="assets/i/favicon.png">
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+    <meta name="msapplication-TileColor" content="#0e90d2">
+    <link rel="stylesheet" href="assets/css/amazeui.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <!--css样式-->
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
+    <style type="text/css">
+    #vld-tooltip {
+        position: absolute;
+        z-index: 1000;
+        padding: 5px 10px;
+        background: #F37B1D;
+        min-width: 150px;
+        color: #fff;
+        transition: all 0.15s;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+        display: none;
+    }
+
+    #vld-tooltip:before {
+        position: absolute;
+        top: -8px;
+        left: 50%;
+        width: 0;
+        height: 0;
+        margin-left: -8px;
+        content: "";
+        border-width: 0 8px 8px;
+        border-color: transparent transparent #F37B1D;
+        border-style: none inset solid;
+    }
+    </style>
+</head>
+
+<body>
+    <!--邮箱登录-->
+    <div class="mail_login" id="mail_login">
+        <div class="top_mail">
+            <a href="login.html">
+                <span id="top_arrow1" class="top_arrow">
+					<i class="arrow"></i>
+					其他登录方式
+			    </span>
+            </a>
+            <span class="login_t">邮箱登录</span>
+        </div>
+        <div class="logo_1"></div>
+        <div class="input_m">
+            <form action="" class="am-form" id="form-with-tooltip">
+                <fieldset>
+                    <div class="am-form-group">
+                        <input type="email" name="email" id="doc-vld-name-2-0" class="input_l am-radius" placeholder="输入邮箱" data-foolish-msg="请填写邮箱！" data-validation-message="输入正确的电子邮箱" required/>
+                    </div>
+                    <div class="am-form-group">
+                        <input type="password" name="password" id="doc-vld-pwd-1-0" class="input_l am-radius" placeholder="请输入密码" required data-foolish-msg="请把密码交出来！" />
+                    </div>
+                    <button id="loginlogin1" class="input_s am-radius" type="button">登录</button>
+                </fieldset>
+            </form>
+            <!--  <form class="am-form" id="form-with-tooltip">
+                <fieldset>
+                    <div class="am-form-group">
+                        <input type="email" name="email" class="input_l" data-validation-message="请输入邮箱" placeholder="网易邮箱账号" required />
+                    </div>
+                    <div class="am-form-group relative">
+                        <input type="password" name="password" class="input_l am-radius" data-validation-message="请输入密码" placeholder="密码" required />
+                        <i class="icon_e eye"></i>
+                    </div>
+                    <div class="am-form-group">
+                        <button type="submit" id="loginlogin" class="input_s am-radius">登录</button>
+                    </div>
+                </fieldset>
+            </form> -->
+            <div class="record am-cf">
+                <input class="am-fl" type="checkbox" name="" id="" value="" />
+                <span class="am-fl">10天免登录</span>
+                <a class="am-fr" href="#">忘记密码？</a>
+            </div>
+        </div>
+    </div>
+    <!--[if (gte IE 9)|!(IE)]><!-->
+    <script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <!--<![endif]-->
+    <!--[if lte IE 8 ]>
+			<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+			<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+			<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+		<![endif]-->
+    <script src="assets/js/amazeui.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+
+        // post请求
+        // $('#loginlogin').click(function(event) {
+        //     var data = $("form").serialize();
+        //     console.log(data);
+        //     $.post('/users/mail_login/', data, function(data, textStatus, xhr) {
+
+        //     });
+        // });
+
+        //表单验证
+        // $("#mail_login1").validator({
+        //     onInValid: function(validity) {
+
+        //         var $field = $(validity.field);
+        //         var $group = $field.closest('.am-form-group');
+        //         var $alert = $group.find('.am-alert');
+        //         // 使用自定义的提示信息 或 插件内置的提示信息
+        //         var msg = $field.data('validationMessage') || this.getValidationMessage(validity);
+
+        //         if (!$alert.length) {
+        //             $alert = $('<div id="vld-tooltip">提示信息！</div>').hide().
+        //             appendTo($group);
+        //         }
+
+        //         $(".am-alert").css("margin", 0);
+        //         $alert.html(msg).show();
+        //     }
+        // });
+
+        var $form = $('#form-with-tooltip');
+        var $tooltip = $('<div id="vld-tooltip">提示信息！</div>');
+        $tooltip.appendTo(document.body);
+
+        $form.validator();
+
+        var validator = $form.data('amui.validator');
+
+        $form.on('focusin focusout', '.am-form-error input', function(e) {
+            if (e.type === 'focusin') {
+                var $this = $(this);
+                var offset = $this.offset();
+                var msg = $this.data('foolishMsg') || validator.getValidationMessage($this.data('validity'));
+
+                $tooltip.text(msg).show().css({
+                    left: offset.left + 10,
+                    top: offset.top + $(this).outerHeight() + 10
+                });
+            } else {
+                $tooltip.hide();
+            }
+        });
+
+    });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,303 @@
+@charset "utf-8";
+.a_user_list .a_user_title {
+	margin-right: 20px;
+	margin-top: 15px;
+	padding: 10px 0 10px 0;
+	font-size: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.a_user_list li {
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-radius: 5px;solid #ddd;
+	margin-right: 20px;
+	padding: 10px;
+	/*height: 30px;
+	line-height: 30px;*/
+	font-size: 14px;
+}
+
+a:hover {
+	color: #898989;
+}
+
+a:hover li {
+	color: #e74c3c;
+}
+.a_table{
+	margin-top: 15px;
+}
+.a_user_system {
+	margin: 20px 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 950px;
+	background-color: #f8f8f8;
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+.a_user_system span {
+	padding-right: 10px;
+	font-size: 14px;
+}
+
+.a_table table {
+	padding-bottom: 20px;
+	border: 1px solid #dddddd;
+	width: 960px;
+	margin: auto;
+	height: 25px;
+	margin-bottom: 20px;
+}
+
+th {
+	padding: 20px 10px;
+	background-color: #f8f8f8;
+}
+
+td .a_list1 {
+	width: 350px;
+	padding: 40px 30px;
+}
+
+td .a_list1 img {
+	border: 4px solid #f8f8f8;
+	border-radius: 48px;
+	width: 92px;
+	height: 92px;
+}
+
+.a_note {
+	text-align: center;
+	width: 100px;
+	padding: 5px 0;
+	border-radius: 20px;
+	background-color: #CF8556;
+	color: white;
+}
+
+td .a_list1 li {
+	padding-top: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+	width: 200px;
+}
+
+td .a_list1 li span {
+	color: #e74c3c;
+}
+
+td .a_list1 .a_user_line {
+	margin-top: 15px;
+	width: 200px;
+	border-bottom: 1px solid #dddddd;
+}
+
+td .a_long_line {
+	border-left: 1px solid #dddddd;
+	height: 130px;
+	line-height: 130px;
+}
+
+.a_list2 {
+	padding-top: 40px;
+}
+
+.a_list2 .a_list2_content {
+	text-align: center;
+	padding: 0px 20px;
+}
+
+.a_rank_line {
+	padding-top: 40px;
+}
+
+.a_rank_line .s0 {
+	width: 10px;
+	border-bottom: 4px solid #dddddd;
+	margin-right: 2px;
+}
+
+.a_rank_line .s1 {
+	width: 80px;
+	border-bottom: 4px solid #dddddd;
+	margin-right: 2px;
+}
+
+.a_rank_title .s1 {
+	padding-right: 50px;
+}
+
+td .a_list3 {
+	width: 200px;
+	text-align: center;
+	/*padding: 40px 20px;*/
+	padding-top: 40px;
+}
+
+.a_list3 span {
+	color: #e74c3c;
+}
+
+.a_list3 .a_list3_content {
+	padding-bottom: 20px;
+}
+
+.a_list3 .a_list3_btn input {
+	width: 100px;
+	padding: 10px 0;
+	background-color: #e74c3c;
+	border-style: hidden;
+	border-radius: 5px;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.a_user_system_content1,
+.a_user_system_content2 {
+	display: none;
+}
+
+.a_user_system_content1 table {
+	width: 400px;
+	text-align: center;
+	border: 1px solid #dddddd;
+}
+
+.a_user_system_content1 table td {
+	height: 20px;
+}
+
+body {
+	position: relative;
+}
+
+.a_edit {
+	display: none;
+	position: absolute;
+	background-image: url(../img/grid.png);
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.a_sign {
+	display: none;
+	position: absolute;
+	background-image: url(../img/grid.png);
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+body .a_edit_cube {
+	opacity: 1;
+	position: absolute;
+	top: 25%;
+	left: 38%;
+	border: 1px solid white;
+	background-color: white;
+	width: 300px;
+	margin: auto;
+	text-align: center;
+	z-index: 20;
+	padding-bottom: 20px;
+}
+
+body .a_sign_cube {
+	opacity: 1;
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	border: 1px solid white;
+	background-color: white;
+	width: 300px;
+	margin: auto;
+	text-align: center;
+	z-index: 20;
+	/*padding: 20px 0;*/
+}
+
+.a_edit_cube p {
+	padding-top: 20px;
+}
+
+.a_sign_cube p {
+	padding: 10px 0;
+}
+
+.a_edit_cube p:first-child {
+	padding-top: 10px;
+	font-size: 14px;
+}
+
+.a_ni_name {
+	height: 40px;
+}
+
+.a_sign_cube p:first-child {
+	font-size: 16px;
+	color: white;
+	background-color: #FCC979;
+	position: relative;
+}
+
+.a_sign span {
+	color: red;
+}
+
+.a_edit_cube input[type='text'] {
+	width: 200px;
+	height: 30px;
+	padding-left: 5px;
+}
+
+.a_p {
+	padding-top: 10px;
+	padding-left: 25px;
+	padding-bottom: 10px;
+}
+
+.a_sex,
+.a_man,
+.a_woman {
+	padding: 8px 10px 0 0;
+}
+
+.a_change {
+	border: 1px solid #e74c3c;
+	background-color: #e74c3c;
+	padding: 5px 5px;
+	color: white;
+	width: 50px;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+.a_close {
+	height: 20px;
+	width: 20px;
+	text-align: center;
+	font-size: 20px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+.a_sign .a_close {
+	height: 20px;
+	width: 20px;
+	text-align: center;
+	font-size: 20px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}

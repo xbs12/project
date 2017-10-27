@@ -1,0 +1,253 @@
+@charset "utf-8";
+.b_bread {
+	width: 100%;
+	height: 55px;
+	background: #F8F8F8;
+	margin-bottom: 32px;
+}
+
+.b_new_top {
+	line-height: 55px;
+	font-size: 14px;
+}
+
+.b_good_list {
+	padding-top: 50px;
+}
+
+.b_li {
+	margin: 0 4px 20px 4px;
+	width: 222px;
+}
+
+.img_goods_top {
+	width: 222px;
+	height: 222px;
+	overflow: hidden;
+}
+
+.shade {
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #bebbbd;
+	width: 100%;
+	height: 100%;
+}
+
+.b_li:hover .shade {
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+	background-color: #bebbbd;
+	/*background-color: rgba(0,0,0,0.1);*/
+	width: 100%;
+	height: 100%;
+	opacity: 0.1;
+}
+
+.b_li:hover .b_goods_bottom {
+	background-color: #f3f3f3;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+}
+
+.b_goods_bottom {
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 16px;
+	height: 90px;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+}
+
+.img_goods {
+	width: 222px;
+	height: 222px;
+	display: block;
+}
+
+.b_goods_brand {
+	margin-bottom: 4px;
+	color: #828282;
+	height: 14px;
+	line-height: 14px;
+}
+
+.b_goods_introduce {
+	line-height: 16px;
+	color: #4A4A4A;
+	height: 32px;
+	margin-bottom: 5px;
+}
+
+.b_special_price {
+	color: #e74c3c;
+	margin-right: 15px;
+}
+
+.b_market_price {
+	color: #828282;
+	text-decoration: line-through
+}
+
+.b_classify {
+	font-size: 14px;
+	border-bottom: 1px solid #F8F8F8;
+}
+
+.b_classify1 {
+	width: 85px;
+	line-height: 52px;
+}
+
+.b_classify2 {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	width: 980px;
+}
+
+.b_classify3 {
+	height: 30px;
+	line-height: 32px;
+	margin-right: 44px;
+}
+
+.b_brand {
+	font-size: 14px;
+	height: 48px;
+	overflow: hidden;
+}
+
+.b_brand1 {
+	width: 85px;
+	line-height: 52px;
+}
+
+.b_brand2 {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	width: 980px;
+}
+
+.b_brand3 {
+	height: 30px;
+	line-height: 32px;
+	margin-right: 44px;
+}
+
+.b_brand_arrow {
+	width: 12px;
+	padding-top: 18px;
+}
+
+.b_brand_arrow1 {
+	width: 12px;
+	height: 9px;
+}
+
+.b_tasty_goods .b_line {
+	height: 45px;
+	border-bottom: 1px solid #F8F8F8;
+}
+
+.b_tasty_goods .b_sort {
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 10;
+}
+
+.b_tasty_goods .b_sort li {
+	text-align: center;
+	font-size: 14px;
+	height: 45px;
+	line-height: 45px;
+	color: #000000;
+}
+
+.b_tasty_goods .b_sort li:hover {
+	background-color: #F8F8F8;
+	cursor: pointer;
+}
+
+.b_sort ul li:first-child:hover {
+	background-color: #FFFFFF;
+}
+
+.b_sort_span {
+	display: inline-block;
+	padding-top: 14px;
+	padding-left: 10px;
+}
+
+.b_sort_arrow {
+	width: 12px;
+	height: 7px;
+}
+
+.b_sort_li {
+	display: none;
+}
+
+.b_sort ul {
+	width: 124px;
+	background-color: #FFFFFF;
+}
+
+.b_sort ul li:first-child {
+	display: block;
+}
+
+.b_goods_tasty .b_li img {
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+}
+
+.b_goods_tasty .b_li:hover img {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+}
+
+.b_sell_out {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 56px;
+	height: 56px;
+	border-radius: 56px;
+	color: #FFFFFF;
+	background-color: #BEBBBD;
+	text-align: center;
+}
+
+.b_sell_out span {
+	display: inline-block;
+	padding-top: 16px;
+	font-size: 14px;
+}

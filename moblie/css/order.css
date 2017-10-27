@@ -1,0 +1,261 @@
+@charset "utf-8";
+body {
+	background-color: #f2f0f0;
+}
+
+
+/*页头*/
+
+.am-header {
+	height: 45px;
+	line-height: 45px;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.am-header-default {
+	background-color: #FFFFFF;
+}
+
+.am-header-default .am-header-nav>a {
+	display: inline-block;
+	min-width: 22px;
+	text-align: center;
+	color: #eee;
+}
+
+.am-header-default .am-header-title a {
+	color: #000;
+	font-size: 18px;
+}
+
+.am-header-default .am-header-nav>a+a {
+	margin-left: 10px;
+}
+
+.ever {
+	vertical-align: middle;
+}
+
+.home {
+	background: url(../img/home.png) no-repeat;
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+	background-size: 22px;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.self {
+	background-image: url(../img/logo.png);
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	background-size: 24px;
+	vertical-align: middle;
+}
+
+
+/*选项卡*/
+
+.tab {
+	height: 44px;
+	line-height: 44px;
+	border-bottom: 1px solid #ddd;
+}
+
+.paddin {
+	padding: 0;
+	text-align: center;
+}
+
+.paddin span {
+	padding: 0 5px;
+	display: inline-block;
+	height: 45px;
+	font-size: 15px;
+	position: relative;
+	bottom: 1px;
+}
+
+.paddin_ac {
+	color: #d22046;
+	border-bottom: 2px solid #d22147;
+}
+
+.will_num {
+	position: absolute;
+	top: 6px;
+	left: 80%;
+	background: #d41c44;
+	border-radius: 9px;
+	height: 18px;
+	line-height: 18px;
+	color: #fff;
+	padding: 0 6px;
+	text-align: center;
+	font-weight: normal;
+}
+
+
+/*订单列表*/
+
+.content {
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+.content_a {
+	height: 10px;
+	background-color: #F2F0F0;
+}
+
+.content ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	padding: 5px 15px 0;
+}
+
+.order_top {
+	font-size: 12px;
+	line-height: 36px;
+	border-bottom: 1px solid #ddd;
+}
+
+.order_time {
+	color: #999;
+}
+
+.order_type {
+	color: #d21f46;
+}
+
+.order_img {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.img_shoes {
+	height: 60px;
+	width: 60px;
+	border: 1px solid #ddd;
+}
+
+.shoes_name {
+	width: 60%;
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+.shoes_name1 {
+	display: inline-block;
+	color: #333333;
+	height: 36px;
+	line-height: 18px;
+	overflow: hidden;
+}
+
+.shoes_name1:hover {
+	color: #333333;
+}
+
+.shoes_name2 {
+	color: #999;
+}
+
+.shoes_name2:hover {
+	color: #999;
+}
+
+.order_price1 {
+	line-height: 18px;
+	font-weight: bold;
+	color: #333333;
+	margin: 0;
+	text-align: right;
+}
+
+.order_price2 {
+	line-height: 18px;
+	color: #656565;
+	margin: 0;
+	text-align: right;
+}
+
+.order_go {
+	width: 100%;
+	padding: 0 15px;
+}
+
+.order_go1 {
+	display: inline-block;
+	width: 84px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 15px;
+	color: #fff;
+	text-align: center;
+	background: #d22147;
+	cursor: pointer;
+	border-radius: 4px;
+	margin: 10px 0 10px 0;
+}
+
+.order_go1:hover {
+	color: #FFFFFF;
+}
+
+.order_go2 {
+	display: inline-block;
+	width: 84px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 15px;
+	color: #333;
+	text-align: center;
+	border: 1px solid #999;
+	cursor: pointer;
+	border-radius: 4px;
+	margin: 10px 15px 10px 0;
+}
+
+.order_go2:hover {
+	color: #333;
+}
+
+.order_price_a {
+	font-size: 12px;
+	line-height: 36px;
+	background-color: #FFFFFF;
+}
+
+.diss {
+	display: none;
+}
+
+
+/*待发货*/
+
+.icon_4 {
+	display: inline-block;
+	background: url(../img/icon4.png);
+}
+
+.icon_order {
+	width: 100px;
+	height: 100px;
+	background-position: 0 -497px;
+	background-size: 500px;
+}
+
+.content3 {
+	background-color: #F2F0F0;
+	font-size: 12px;
+	text-align: center;
+}
+
+.futurn_see {
+	padding-top: 50%;
+}

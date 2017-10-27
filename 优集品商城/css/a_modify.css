@@ -1,0 +1,105 @@
+@charset "utf-8";
+.a_user_list .a_user_title {
+	margin-right: 20px;
+	margin-top: 15px;
+	padding: 10px 0 10px 0;
+	font-size: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.a_user_list li {
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-radius: 5px;solid #ddd;
+	margin-right: 20px;
+	padding: 10px;
+	/*height: 30px;
+	line-height: 30px;*/
+	font-size: 14px;
+}
+a:hover {
+	color: #898989;
+}
+
+a:hover .a_user_list li {
+	color: #e74c3c;
+}
+
+.a_change_password {
+	width: 1000px;
+	text-align: center;
+	padding: 50px 0;
+}
+
+.a_change_password_main input {
+	width: 290px;
+	height: 30px;
+	padding-left: 10px;
+	margin: 10px 20px;
+}
+
+.a_submit_password {
+	display: inline-block;
+	margin-top: 30px;
+	border: 1px solid #e74c3c;
+	padding: 10px 20px 10px 20px;
+	color: white;
+	background-color: #e74c3c;
+	border-radius: 5px;
+}
+
+.a_hot_intro li {
+	/*margin-right: 10px;*/
+}
+
+.a_hot_intro li .a_hot_intro_img img {
+	width: 222px;
+	height: 222px;
+	font-size: 0px;
+}
+
+.a_hot_intro li .a_hot_intro_content {
+	padding-left: 20px;
+	width: 202px;
+	height: 106px;
+}
+
+.a_maket_price {
+	font-family: "微软雅黑";
+	text-decoration: line-through;
+}
+
+.a_hot_intro li .a_hot_intro_content span:first-child {
+	color: red;
+}
+
+h2 {
+	margin-top: 200px;
+}
+
+.a_hot_intro {
+	/*margin-bottom: 200px;*/
+	width: 1110px;
+	margin: 0 auto;
+}
+
+.a_new_copy {
+	margin-left: -10px;
+}
+
+.a_old,
+.a_new,
+.a_new_copy {
+	height: 80px;
+}
+
+.a_old span,
+.a_new span,
+.a_new_copy span {
+	height: 90px;
+	color: red;
+}

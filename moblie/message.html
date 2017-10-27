@@ -1,0 +1,239 @@
+<!doctype html>
+<html class="no-js">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>个人资料修改</title>
+		<!-- Set render engine for 360 browser -->
+		<meta name="renderer" content="webkit">
+		<!-- No Baidu Siteapp-->
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<link rel="icon" type="image/png" href="assets/i/favicon.png">
+		<!-- Add to homescreen for Chrome on Android -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
+		<!-- Add to homescreen for Safari on iOS -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+		<link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+		<!-- Tile icon for Win8 (144x144 + tile color) -->
+		<meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+		<meta name="msapplication-TileColor" content="#0e90d2">
+		<link rel="stylesheet" href="assets/css/amazeui.min.css">
+		<link rel="stylesheet" href="assets/css/app.css">
+		<!--css样式-->
+		<link rel="stylesheet" type="text/css" href="css/message.css" />
+	</head>
+
+	<body>
+		<!--页头-->
+		<header data-am-widget="header" class="am-header am-header-default">
+			<div class="am-header-title">
+				<a href="#title-link" class="ever">
+					个人资料
+				</a>
+			</div>
+			<div class="am-header-right am-header-nav">
+				<a href="index.html" class="home"></a>
+				<a href="user_center.html" class="self"></a>
+			</div>
+		</header>
+		<!--用户-->
+		<div class="" id="infoBox">
+		</div>
+		<!-- <div class="user">
+			<div class="user_bg">
+				<div class="user_h">
+					<img src="img/user_photo.png" />
+				</div>
+			</div>
+		</div> -->
+		<!--用户信息-->
+		<!-- <div class="message">
+			<div class="message_li">
+				<span class="message_li1">用户ID</span>
+				<span>82504665</span>
+			</div>
+			<form>
+				<div class="message_li">
+					<span class="message_li1">昵称</span>
+					<span><input type="text" name="nickname" id="" value="吃藕" placeholder="" /></span>
+				</div>
+				<div class="message_li">
+					<span class="message_li1">联系电话</span>
+					<span><input type="text" name="tel" id="" value="18989898989" placeholder="" /></span>
+				</div>
+				<div class="message_li">
+					<span class="message_li1">QQ账号</span>
+					<span><input type="text" name="qq" id="" value="123456" placeholder="" /></span>
+				</div>
+				<div class="message_li">
+					<span class="message_li1">性别</span>
+					<span class="message_li2">
+					<label class="icon8 icon_se" for=""></label>
+					<input class="sex" type="radio" name="sex" id="" value="" />
+					<span>男</span>
+					</span>
+					<span class="message_li3">
+					<label class="icon8 icon_se" for=""></label>
+					<input class="sex" type="radio" name="sex" id="" value="" />
+					<span>女</span>
+					</span>
+				</div>
+				<div class="message_li">
+					<span class="message_li1">出生日期</span>
+					<span><input type="text" name="brith" id="" data-am-datepicker value="" placeholder="请输入" /></span>
+				</div>
+			</form>
+		</div> -->
+
+		<!-- 收货地址管理 -->
+		<div class="address">
+			<a href="address.html">
+				<div class="order_a am-cf">
+					<div class="order_a1 am-fl">
+						收货地址管理
+					</div>
+					<div class="order_a2 am-fr">
+						<i class="username1"></i>
+					</div>
+				</div>
+			</a>
+		</div>
+		<!--取消保存-->
+		<form action="" method="">
+			<div class="am-g marg">
+				<a href="user_center.html">
+					<div class="am-u-sm-6 pad left">
+						取消
+					</div>
+				</a>
+				<div class="am-u-sm-6 pad right" id="saveBtn">
+					保存
+				</div>
+			</div>
+		</form>
+		<!--[if (gte IE 9)|!(IE)]><!-->
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--<![endif]-->
+		<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+		<script src="assets/js/amazeui.min.js"></script>
+		<script src="js/template-web.js" type="text/javascript" charset="utf-8"></script>
+		<script id="tpl-user" type="text/html">
+			<div class="user">
+				<div class="user_bg">
+					<div class="user_h">
+						<img src="{{avatar}}" />
+					</div>
+				</div>
+			</div>
+			<div class="message">
+				<div class="message_li">
+					<span class="message_li1">用户ID</span>
+					<span>2515</span>
+				</div>
+				<form id="form1">
+					<div class="message_li">
+						<span class="message_li1">昵称</span>
+						<span><input type="text" name="nickname" id="" value="{{nickname}}" placeholder="昵称" /></span>
+					</div>
+					<div class="message_li">
+						<span class="message_li1">联系电话</span>
+						<span><input type="text" name="tel" id="" value="{{tel}}" placeholder="联系方式" /></span>
+					</div>
+					<div class="message_li">
+						<span class="message_li1">出生日期</span>
+						<span><input type="text" id="brithday" name="" value="{{brith}}" placeholder="请选择出生日期" readonly /></span>
+					</div>
+					<div class="message_li">
+						<span class="message_li1">性别</span>
+						<span class="message_li2">
+					<label class="icon8 icon_se" for=""></label>
+					<input class="sex" type="radio" name="sex" id="" value="男" />
+					<span>男</span>
+						</span>
+						<span class="message_li3">
+					<label class="icon8 icon_se" for=""></label>
+					<input class="sex" type="radio" name="sex" id="" value="女" />
+					<span>女</span>
+						</span>
+					</div>
+					<div class="message_li">
+						<span class="message_li1">QQ账号</span>
+						<span><input type="text" name="qq" id="" value="{{qq}}" placeholder="QQ账号" /></span>
+					</div>
+					<!--隐藏数据-->
+					<input type="hidden" name="account" id="account" value="{{account}}" />
+				</form>
+			</div>
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				// var account = sessionStorage.account;
+				//赋值input[type=hidden]
+				var account = sessionStorage.account;
+				if(!account) {
+					alert("暂无账户信息，请登录！");
+					return;
+				}
+				$("#account").val(sessionStorage.account);
+
+				$("#saveBtn").click(function() {
+					var data = $("#form1").serialize();
+					console.log(data)
+					$.post("/users/updateInfo/", data, function(result) {
+						if(result.status) {
+							location.href = "user_center.html";
+						} else {
+							alert(result.msg);
+						}
+					})
+				});
+
+				$.ajax({
+					url: '/users/getInfo/',
+					type: 'get',
+					async: true,
+					data: {
+						'account': account
+					},
+					success: function(result) {
+						// body... 
+						if(result.status) {
+							var html = template("tpl-user", result.data);
+
+							$("#infoBox").html(html);
+							//启动下拉
+							$('#brithday').datepicker();
+							if(result.data.sex == '男') {
+								$(".message_li2 .icon_se").addClass('checked');
+								$(".message_li2 .icon_se").siblings("input").attr('checked', 'checked');
+							};
+							if(result.data.sex == '女') {
+								$(".message_li3 .icon_se").addClass('checked');
+								$(".message_li3 .icon_se").siblings("input").attr('checked', 'checked');
+							};
+							$(".icon_se").click(function() {
+								$('.icon_se').removeClass('checked');
+								$(this).addClass('checked');
+								$(".sex").removeAttr('checked');
+								$(this).siblings("input").attr('checked', 'checked');
+							});
+						}
+					}
+				});
+
+			})
+		</script>
+	</body>
+
+</html>

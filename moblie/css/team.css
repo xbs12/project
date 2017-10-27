@@ -1,0 +1,285 @@
+@charset "utf-8";
+body {
+	background-color: #f1f1f1;
+}
+
+a {
+	color: #333333;
+}
+
+a:hover {
+	color: #333333;
+}
+
+.floor {
+	height: 36px;
+}
+
+.border_a {
+	background-color: #FFFFFF;
+	font-size: 14px;
+	width: 100%;
+	overflow: hidden;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9999999;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.tab {
+	text-align: center;
+	color: #333;
+	/*margin-left: 10px;*/
+}
+
+/*.tab:first-child {
+	margin-left: 10px;
+}*/
+
+.tab a {
+	color: #333;
+	padding: 6px 0;
+	display: inline-block;
+}
+
+.tab_add a {
+	color: #e31436;
+	border-bottom: 2px solid #e31436;
+}
+
+.pad {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	background-color: #FFFFFF;
+}
+
+.paddin {
+	padding: 0;
+}
+
+
+/*开团货物*/
+
+.paddi {
+	padding: 0;
+	background-color: #FFFFFF;
+	margin-bottom: 10px;
+}
+
+.enjoy_goods1 {
+	position: relative;
+}
+
+.enjoy_goods1_img {
+	text-align: center;
+}
+
+.tagimage {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	width: 62px;
+	height: 62px;
+}
+
+.enjoy_goods_img {
+	width: 180px;
+	height: 180px;
+}
+
+.enjoy_goods_title {
+	padding: 5px 10px 10px;
+	color: #333;
+}
+
+.enjoy_goods_title p {
+	font-size: 16px;
+	margin-bottom: 12px;
+}
+
+.team_num {
+	font-size: 12px;
+	margin-right: 2px;
+}
+
+.team_num img {
+	width: 17px;
+	height: 17px;
+	margin: 0px 3px 2px 0;
+	vertical-align: middle;
+	background-size: 100%;
+}
+
+.prices {
+	font-weight: 500;
+	margin-right: 2px;
+	color: #e31436;
+}
+
+.price {
+	font-size: 12px;
+	color: #999999;
+}
+
+.team_go {
+	display: inline-block;
+	width: 96px;
+	line-height: 0.933333rem;
+	text-align: center;
+	border-radius: 4px;
+	font-size: 14px;
+	color: #fff;
+	background: #e31436;
+	padding: 10px 0;
+}
+
+
+/*母婴*/
+.content{
+	margin-bottom: 50px;
+}
+.content1 {
+	display: none;
+}
+
+.am_g_p {
+	padding-top: 10px;
+}
+
+.descitem {
+	padding: 5px 10px 8px;
+	background-color: #FFFFFF;
+}
+
+.nation_am_a {
+	padding: 5px 0 0 0;
+}
+
+.image_b img {
+	width: 100%;
+}
+
+.nation_am1 {
+	padding: 0 2.5px 0 5px;
+	margin-bottom: 5px;
+}
+
+.nation_am2 {
+	padding: 0 5px 0 2.5px;
+	margin-bottom: 5px;
+}
+
+.image_b {
+	border-bottom: 1px solid #f0f0f0;
+	position: relative;
+}
+
+.num_team {
+	display: inline-block;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	color: #e31436;
+	font-size: 12px;
+	border: 1px solid #f00;
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	-o-transform: scale(0.9);
+	transform: scale(0.9);
+	padding: 0 1px;
+}
+
+.goods_href1 {
+	font-size: 12px;
+	color: #333;
+}
+
+.goods_href2 {
+	color: #CCCCCC;
+	height: 36px;
+	font-size: 13px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: normal;
+	line-height: 18px;
+}
+
+.price {
+	margin-top: 10px;
+}
+
+.now_price {
+	font-size: 17px;
+	font-weight: bold;
+	color: #e31436;
+}
+
+.ago_price {
+	color: #999;
+	font-size: 12px;
+}
+
+.ago_price1 {
+	color: #999;
+	font-size: 12px;
+	padding-top: 6px;
+}
+
+
+/*拼团商城与我的拼团*/
+
+.pa {
+	padding: 0;
+}
+
+.bottom {
+	background-color: #FFFFFF;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	border-top: 1px solid #dcdcdc;
+}
+
+.fixedleft {
+	font-size: 16px;
+	color: #e31436;
+	text-align: center;
+	line-height: 49px;
+	border-right: 0.5px solid #dcdcdc;
+}
+
+.fixedleft:before {
+	content: "";
+	display: inline-block;
+	background: url(../img/fixedleft.png) no-repeat;
+	background-size: 100%;
+	width: 19px;
+	height: 19.5px;
+	vertical-align: text-bottom;
+	margin-right: 8px;
+}
+
+.fixedright {
+	font-size: 16px;
+	color: #666;
+	text-align: center;
+	line-height: 49px;
+	border-left: 0.5px solid #dcdcdc;
+}
+
+.fixedright:before {
+	content: "";
+	display: inline-block;
+	background: url(../img/fixedright.png) no-repeat;
+	background-size: 100%;
+	width: 19px;
+	height: 21.5px;
+	vertical-align: text-bottom;
+	margin-right: 8px;
+}

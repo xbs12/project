@@ -1,0 +1,215 @@
+@charset "utf-8";
+.icon6 {
+	display: inline-block;
+	background: url(../img/icon6.png) no-repeat;
+}
+
+.nation {
+	display: inline-block;
+	background: url(../img/nation.png) no-repeat;
+}
+
+.container {
+	width: 86%;
+	margin: 0 auto;
+	padding: 35px 0 28px 0;
+}
+
+input {
+	color: #333;
+	border: 1px solid #d0d0d0;
+	outline: none;
+}
+
+.account {
+	padding-top: 18px;
+}
+
+.account1 {
+	width: 60%;
+}
+
+.account_i {
+	font-size: 14px;
+	width: 100%;
+	line-height: 44px;
+	height: 44px;
+	border-radius: 4px;
+	text-indent: 14px;
+}
+
+.e-mail {
+	width: 35%;
+	height: 44px;
+	border: 1px solid #d0d0d0;
+	border-radius: 4px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+	line-height: 44px;
+	text-indent: 14px;
+}
+
+.select6 {
+	width: 14px;
+	height: 12px;
+	background-position: -98px -18px;
+	background-size: 350px 175px;
+}
+
+.code {
+	padding-top: 18px;
+	width: 100%;
+	position: relative;
+}
+
+.code1 {
+	font-size: 14px;
+	width: 100%;
+	line-height: 44px;
+	height: 44px;
+	border-radius: 4px;
+	text-indent: 14px;
+}
+
+.china {
+	height: 14px;
+	width: 21px;
+	background-position: 0px -2912px;
+	background-size: 21px 2968px
+}
+
+.nation_a {
+	position: absolute;
+	right: 0;
+	top: 18px;
+	line-height: 44px;
+	width: 49px;
+	z-index: 10;
+}
+
+.slice {
+	color: #a8a8a8;
+	font-size: 12px;
+	text-align: center;
+	border: 1px solid #cbcbcb;
+	border-radius: 90px;
+	height: 32px;
+	line-height: 32px;
+	margin-top: 28px;
+}
+
+.go_on {
+	padding-top: 43px;
+}
+
+.go_on_btn {
+	background: #b7272d;
+	height: 40px;
+	width: 100%;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 4px;
+}
+
+.tips {
+	font-size: 12px;
+	margin: 14px auto;
+}
+
+
+/*邮箱*/
+
+.mail {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	background-color: rgba(100, 100, 100, 0.7)
+}
+
+.mail1 {
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 4px;
+	padding: 6px 0;
+	background: #fff;
+	position: relative;
+	top: 50%;
+	margin-top: -82px;
+}
+
+.domain {
+	margin: 0 21px;
+	font-size: 16px;
+	color: #333;
+	font-weight: bold;
+	line-height: 50px;
+	text-indent: 8px;
+	border-bottom: 1px solid #d0d0d0;
+}
+
+.domain:last-child {
+	border-bottom: none;
+}
+
+
+/*国家旗帜*/
+
+.nation_sign {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	background-color: rgba(100, 100, 100, 0.7)
+}
+
+.nation_sign1 {
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 4px;
+	padding: 6px 0;
+	background: #fff;
+	position: relative;
+	top: 50%;
+	height: 440px;
+	margin-top: -220px;
+	overflow: auto;
+}
+
+.nation_sign2 {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.nation1 {
+	line-height: 42px;
+	font-size: 14px;
+	color: #464b4d;
+	border-bottom: 1px solid #d0d0d0;
+}
+
+.nation1:last-child {
+	border-bottom: none;
+}
+
+.nation_b {
+	background-position: 0 0;
+	height: 14px;
+	width: 21px;
+	margin: 0 8px 0 14px;
+	background-size: 21px 2968px;
+	vertical-align: middle;
+}
+
+.nation1 span {
+	vertical-align: middle;
+}

@@ -1,0 +1,146 @@
+<!doctype html>
+<html class="no-js">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>支付页面</title>
+
+		<!-- Set render engine for 360 browser -->
+		<meta name="renderer" content="webkit">
+
+		<!-- No Baidu Siteapp-->
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+		<link rel="icon" type="image/png" href="assets/i/favicon.png">
+
+		<!-- Add to homescreen for Chrome on Android -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
+
+		<!-- Add to homescreen for Safari on iOS -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+		<link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+
+		<!-- Tile icon for Win8 (144x144 + tile color) -->
+		<meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+		<meta name="msapplication-TileColor" content="#0e90d2">
+
+		<link rel="stylesheet" href="assets/css/amazeui.min.css">
+		<link rel="stylesheet" href="assets/css/app.css">
+
+		<!--css样式-->
+		<link rel="stylesheet" type="text/css" href="css/pay.css" />
+	</head>
+
+	<body>
+
+		<!--页头-->
+		<header data-am-widget="header" class="am-header am-header-default">
+			<div class="am-header-title">
+				<a href="#title-link" class="ever">
+					选择支付方式
+				</a>
+			</div>
+
+			<div class="am-header-right am-header-nav">
+				<a href="index.html" class="home"></a>
+				<a href="user_center.html" class="self"></a>
+			</div>
+		</header>
+
+		<!--订单已提交-->
+		<div class="ordered">
+			<div class="ordered_a">
+				<i class="icon_pa icon_ok icon_ok1"></i>
+				<span>订单已提交</span>
+			</div>
+			<div class="ordered_b">
+				(请在<b>30分钟00秒</b>内完成支付)
+			</div>
+			<div class="ordered_c">
+				支付金额<b>¥28.80</b>
+			</div>
+		</div>
+
+		<!--支付方式-->
+		<div class="pay_way">
+			<div class="pay_title">
+				选择支付方式
+			</div>
+			<div class="pay_way_1">
+				<div class="pay_way_a am-cf">
+					<div class="pay_img am-fl">
+						<img src="img/zhifubao.png" />
+					</div>
+					<div class="pay_img1 am-fl">
+						支付宝支付
+					</div>
+					<div class="pay_img3 am-fr">
+						<label for=""></label>
+						<input type="radio" name="pay" id="" value="" />
+					</div>
+				</div>
+				<div class="pay_way_a am-cf">
+					<div class="pay_img am-fl">
+						<img src="img/weixin.png" />
+					</div>
+					<div class="pay_img1 am-fl">
+						微信支付
+					</div>
+					<div class="pay_img3 am-fr">
+						<label for=""></label>
+						<input type="radio" name="pay" id="" value="" />
+					</div>
+				</div>
+				<div class="pay_way_a am-cf">
+					<div class="pay_img am-fl">
+						<img src="img/wangyi.png" />
+					</div>
+					<div class="pay_img1 am-fl">
+						网易支付
+					</div>
+					<div class="pay_img3 am-fr">
+						<label for=""></label>
+						<input type="radio" name="pay" id="" value="" />
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--立即支付-->
+		<div class="outright">
+			<a href="#">
+				<div class="outright1">
+					立即支付
+				</div>
+			</a>
+		</div>
+
+		<!--[if (gte IE 9)|!(IE)]><!-->
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--<![endif]-->
+		<!--[if lte IE 8 ]>
+			<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+			<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+			<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+		<![endif]-->
+		<script src="assets/js/amazeui.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('label').click(function() {
+					$('label').removeAttr('class');
+					$(this).attr('class', 'checked');
+					$(".pay_img3 input").removeAttr('checked');
+					$(this).siblings("input").attr('checked', 'checked');
+				});
+			})
+		</script>
+	</body>
+
+</html>

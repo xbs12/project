@@ -1,0 +1,581 @@
+@charset "utf-8";
+
+/*填写订单*/
+
+.e_fill_word {
+	margin-top: 30px;
+	
+}
+
+.e_fill_word p {
+	float: left;
+	font-size: 20px;
+}
+
+.e_fill_line .e_line_1 {
+	border: 1px solid #e74c3c;
+	width: 100px;
+	margin-top: 10px;
+}
+
+.e_fill_line {
+	margin-right: 20px;
+}
+
+.e_fill_line .e_line_2 {
+	border: 1px solid #BEBDBB;
+	width: 100px;
+	margin-top: 10px;
+}
+
+.e_fill_line img {
+	width: 19px;
+	height: 19px;
+}
+
+.e_fill_line_wd {
+	font-size: 14px;
+	color: #e74c3c;
+	margin-top: 0px;
+}
+
+.e_fill_line_wd span:last-child {
+	color: #BEBDBB;
+	/*margin-right: -10px;*/
+}
+
+.e_fill_line_wd span {
+	margin-left: 60px;
+}
+
+.e_fill_line_wd span:first-child {
+	margin-right: 10px;
+}
+
+
+/*收件人信息*/
+
+.e_shoujian {
+	height: 42px;
+	background-color: #F8F8F8;
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+
+.e_info_word {
+	font-size: 16px;
+	margin-left: 20px;
+	line-height: 42px;
+}
+
+.e_info_word_r {
+	font-size: 14px;
+	color: #e74c3c;
+	margin-right: 30px;
+	line-height: 42px;
+	cursor: pointer;
+}
+
+.e_new_info1 {
+	font-size: 14px;
+	margin-left: 20px;
+}
+
+.e_new_info2 {
+	margin-left: 30px;
+	font-size: 14px;
+	color: #828282;
+}
+
+
+/*地址表单*/
+
+.e_form {
+	width: 426px;
+	height: 320px;
+	-webkit-box-shadow: 0 0 5px #CCC;
+	-moz-box-shadow: 0 0 5px #CCC;
+	-ms-box-shadow: 0 0 5px #CCC;
+	box-shadow: 0 0 5px #CCC;
+	margin-top: 26px;
+	margin-left: 83px;
+	padding-top: 28px;
+	/*margin-bottom: 40px;*/
+	border-radius: 3px;
+	/*text-align: center;*/
+}
+
+.e_form ul {
+	/*overflow: hidden;*/
+	height: 30px;
+	font-size: 14px;
+	color: #4A4A4A;
+	margin-bottom: 10px;
+	padding-left: 12px;
+}
+
+.e_address_li1 {
+	margin-right: 38px;
+}
+
+.e_form input[type=text] {
+	height: 30px;
+	width: 276px;
+	background: #F8F8F8;
+	border: 0px;
+	text-indent: 6px;
+	outline: 0px;
+	border-radius: 3px;
+}
+
+.e_address_li1 select[name=select] {
+	height: 30px;
+	width: 80px;
+	background: #F8F8F8;
+	border: 0px;
+	text-indent: 6px;
+	outline: 0px;
+	border-radius: 3px;
+	/*margin-left: 10px;*/
+}
+
+.e_address_li1 select[name=select2] {
+	height: 30px;
+	width: 85px;
+	background: #F8F8F8;
+	border: 0px;
+	text-indent: 6px;
+	outline: 0px;
+	border-radius: 3px;
+	margin-left: 11px;
+	margin-right: 11px;
+}
+
+.e_comment textarea {
+	height: 64px;
+	width: 265px;
+	line-height: 20px;
+	display: inline-block;
+	outline: none;
+	border: none;
+	background: #F8F8F8;
+	padding-left: 10px;
+	padding-top: 4px;
+	resize: none;
+	word-wrap: break-word;
+	margin-right: 38px;
+	float: right;
+}
+
+#e_comment {
+	font-size: 14px;
+	color: #4A4A4A;
+	margin-left: 31px;
+}
+
+.e_fch {
+	margin-top: 22px;
+	font-size: 14px;
+	margin-left: 20px;
+	color: #4A4A4A;
+}
+
+.e_fch p {
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.e_moren {
+	margin-right: 94px;
+	margin-top: 40px;
+	font-size: 14px;
+	color: #4A4A4A;
+}
+
+.e_red_box {
+	display: inline;
+	width: 130px;
+	height: 36px;
+	background: #e74c3c;
+	text-align: center;
+	line-height: 36px;
+	color: white;
+	font-size: 14px;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-right: 40px;
+	margin-top: 28px;
+}
+
+
+/*结束*/
+
+
+/*支付方式*/
+
+.e_chbox_one {
+	width: 16px;
+	height: 16px;
+	border: 1px solid #4A4A4A;
+	cursor: pointer;
+	border-radius: 5px;
+	margin: 68px 10px 0 30px;
+}
+
+.e_chbox_two {
+	width: 16px;
+	height: 16px;
+	border: 1px solid #4A4A4A;
+	cursor: pointer;
+	border-radius: 5px;
+	margin: 68px 10px 0 30px;
+}
+
+.e_check_one {
+	z-index: 10;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+.e_check_on_red {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-image: url(../img/checkbox2.png);
+	width: 100%;
+	height: 100%;
+	background-size: 16px 16px;
+	/*display: none;*/
+}
+
+.e_a {
+	margin-top: 56px;
+	font-size: 14px;
+	color: #4A4A4A;
+}
+
+.e_b {
+	margin-top: 68px;
+	font-size: 14px;
+	color: #4A4A4A;
+}
+
+.e_b_b {
+	font-size: 12px;
+	color: #828282;
+	margin-left: 12px;
+	margin-top: 71px;
+	/*margin-bottom: 30px;*/
+}
+
+
+/*结束*/
+
+
+/*其他*/
+
+.e_chbox_bill {
+	font-size: 14px;
+	color: white;
+	background-color: #BEBDBB;
+	text-align: center;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #4A4A4A;
+	cursor: pointer;
+	border-radius: 5px;
+	margin: 68px 10px 0 30px;
+}
+
+
+/*发票框*/
+
+.e_bill_form {
+	width: 400px;
+	height: 191px;
+	-webkit-box-shadow: 0 0 5px #CCC;
+	-moz-box-shadow: 0 0 5px #CCC;
+	-ms-box-shadow: 0 0 5px #CCC;
+	box-shadow: 0 0 5px #CCC;
+	border-radius: 3px;
+	margin-top: 20px;
+	margin-left: 56px;
+	padding-top: 15px;
+	display: none;
+}
+.e_bill_form ul{
+	line-height: 30px;
+    color: #4A4A4A;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.e_bill_form ul li{
+	float: left;
+}
+.e_bill_li{
+	width: 88px;
+    text-align: right;
+    font-size: 14px;
+    height: auto;
+    padding-right: 15px;
+}
+.e_bill_form p{
+ float: left;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 36px;
+    margin-right: 16px;
+}
+.e_bill_form p input[type=radio] {
+    position: absolute;
+    left: 20px;
+    top: 9px;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    width: 12px;
+    height: 12px;
+    }
+ .e_bill_form p label   {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-indent: 36px;
+    /*margin-left: 409px;*/
+    }
+    .e_bill_form input[type=text] {
+    width: 276px;
+    height: 30px;
+    border-radius: 4px;
+    background: #F8F8F8;
+    border: none;
+    outline: none;
+    text-indent: 6px;
+    }
+    .e_fy{
+     width: 88px;
+    text-align: right;
+    font-size: 14px;
+    height: auto;
+    padding-right: 15px;
+    margin-left: -10px;
+    }
+    .e_li{
+    width: 276px;
+    height: auto;
+    }
+/*结束*/
+/*备注信息框*/
+.e_remarks_form{
+	width: 360px;
+    height: 197px;
+    display: none;
+    -webkit-box-shadow: 0 0 5px #CCC;
+    -moz-box-shadow: 0 0 5px #CCC;
+    -ms-box-shadow: 0 0 5px #CCC;
+    box-shadow: 0 0 5px #CCC;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 56px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.e_remarks_form textarea{
+	    border: none;
+    background: #F8F8F8;
+    resize: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 340px;
+    padding-top: 10px;
+}
+.e_remarks_form div {
+	font-size: 14px;
+    color: #4A4A4A;
+    margin-top: 14px;
+}
+/*结束*/
+/*商品信息*/
+.e_info_word_1{
+	font-size: 16px;
+	margin-left: 176px;
+	line-height: 42px;
+}
+/*结束*/
+.e_1{
+	font-size: 16px;
+	/*color: #4A4A4A;*/
+	    width: 300px;
+    text-align: right;
+    line-height: 42px;
+}
+.e_2{
+	font-size: 16px;
+	/*color: #4A4A4A;*/
+	    width: 175px;
+    text-align: right;
+    line-height: 42px;
+}
+.e_status{
+	border-bottom: 1px dashed #4A4A4A;
+    height: 38px;
+    line-height: 38px;
+    margin-top: 22px;
+}
+.e_status em{
+	font-size: 13px;
+    color: #4A4A4A;
+    margin-left: 12px;
+}
+.e_big ul li{
+	float: left;
+    color: #4A4A4A;
+    font-size: 13px;
+}
+.e_big ul li.e_msg{
+	    width: 450px;
+}
+.e_big ul li dl{
+	    margin-left: 14px;
+    margin-top: 20px;
+}
+.e_big ul li dl dt{
+	    width: 90px;
+    height: 90px;
+    margin-right: 25px;
+    float: left;
+}
+.e_big ul li dl dt img{
+	width: 100%;
+	height: 100%;
+}
+.e_big ul li dl dd{
+	    float: left;
+    width: 236px;
+    padding-top: 25px;
+    color: #4A4A4A;
+    line-height: 16px;
+    font-size: 14px;
+}
+.e_big ul li.e_propety{
+	    width: 168px;
+    text-align: center;
+    padding-top: 48px;
+}
+.e_big ul li.e_propety span{
+	    margin-right: 18px;
+    display: block;
+    margin-bottom: 8px;
+}
+.e_big ul li.e_price{
+	    padding-top: 56px;
+    width: 124px;
+    text-align: right;
+}
+.e_big ul li.e_num{
+	    width: 150px;
+    padding-top: 56px;
+    text-align: right;
+}
+.e_big ul li.e_tol{
+    width: 192px;
+    padding-top: 56px;
+    text-align: right;}
+/*底部提交订单*/
+.e_coupons{
+	
+}
+.e_coupons_main{
+	min-height: 196px;
+    background: #FFFBFA;
+    padding-top: 36px;
+    overflow: hidden;
+    width: 1150px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+ .e_coupons_main ul{
+	float: right;
+    padding-right: 50px;
+    margin-bottom: 25px;
+    clear: both;
+}
+.e_coupons_main ul li.e_lable{
+	text-align: left;
+    width: 75px;
+}
+.e_coupons_main ul li.e_money{
+	    min-width: 76px;
+    text-align: right;
+}
+.e_coupons_main ul li{
+	float: left;
+    font-size: 13px;
+    color: #4A4A4A;
+    line-height: 22px;
+}
+.e_coupons_main .e_checkbox{
+	width: 38px;
+    cursor: pointer;
+}
+.checkbox input {
+    /*position: absolute;*/
+    left: 0px;
+    top: 0px;
+    width: 16px;
+    cursor: pointer;
+    opacity: 0;
+    height: 16px;
+}
+.e_chbox_three {
+	width: 16px;
+	height: 16px;
+	border: 1px solid #4A4A4A;
+	cursor: pointer;
+	border-radius: 5px;
+	margin: 3px 10px 0 30px;
+}
+.e_coupons_main ul li.e_my{
+	    color: #828282;
+    font-size: 13px;
+}
+.e_coupons_main ul li.e_my+li{
+	    width: 77px;
+    margin-left: 30px;
+}
+.e_coupons_main .e_ddiv{
+	    float: right;
+    clear: both;
+    display: inline;
+    font-size: 18px;
+    color: #e74c3c;
+    margin-bottom: 28px;
+    margin-right: 51px;
+}
+.e_coupons_main .e_ddiv em{
+	    display: inline-block;
+    width: 103px;
+    padding-left: 13px;
+    text-align: right;
+}
+
+.e_submit_btn p{
+	    width: 272px;
+    height: 52px;
+    background: #e74c3c;
+    text-align: center;
+    line-height: 52px;
+    font-size: 18px;
+    color: white;
+    float: right;
+    cursor: pointer;
+    clear: both;
+}
+/*结束*/

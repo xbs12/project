@@ -1,0 +1,250 @@
+@charset "utf-8";
+.logo {
+    background: url(../img/login.png) center 73px no-repeat;
+    background-size: 161px;
+    text-align: center;
+    padding: 130px 0 0;
+    height: 74px;
+}
+
+.t_login {
+    width: 300px;
+    padding: 11px 0;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border: 1px solid #666;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #666666;
+}
+
+.icon {
+    display: inline-block;
+    background: url(../img/icon1.png) no-repeat;
+}
+
+.icon_tel {
+    background-size: 175px;
+    width: 18px;
+    height: 15px;
+    background-position: 0 -42px;
+}
+
+.icon_mail {
+    background-size: 175px;
+    width: 18px;
+    height: 15px;
+    background-position: -23px -41px;
+}
+
+.d_login {
+    width: 300px;
+    padding: 11px 0;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border: 1px solid #666;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.other {
+    padding: 40px 0 0 0;
+}
+
+.other_a {
+    position: relative;
+    width: 215px;
+    margin: 0 auto;
+    border-bottom: 1px solid #eee;
+}
+
+.other_a1 {
+    position: absolute;
+    left: 50%;
+    top: -13px;
+    margin-left: -58px;
+    color: #999;
+    font-size: 12px;
+    line-height: 26px;
+    background-color: #FFFFFF;
+    padding: 0 10px;
+}
+
+.link {
+    padding: 27px 0 0;
+    width: 280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.weixin {
+    background-size: 175px;
+    width: 31px;
+    height: 31px;
+    background-position: -72px 0;
+    margin-right: 21px;
+}
+
+.xinlang {
+    background-size: 175px;
+    width: 31px;
+    height: 31px;
+    background-position: -36px 0;
+    margin: 0 21px;
+}
+
+.qq {
+    background-size: 175px;
+    width: 31px;
+    height: 31px;
+    background-position: 0 0;
+    margin: 0 21px;
+}
+
+.pay {
+    background-size: 175px;
+    width: 31px;
+    height: 31px;
+    background-position: -144px 0;
+    margin-left: 21px;
+}
+
+
+
+/*邮箱登录*/
+
+.top_mail {
+    position: relative;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.top_arrow {
+    font-size: 10px;
+    position: absolute;
+    left: 15px;
+    top: 0;
+    line-height: 45px;
+    color: #333;
+}
+
+.arrow {
+    display: inline-block;
+    background: url(../img/return.png) no-repeat -2px 11px;
+    background-size: 20px;
+    width: 10px;
+    height: 45px;
+    position: absolute;
+    top: 2px;
+    left: -12px;
+}
+
+.login_t {
+    font-size: 18px;
+    max-width: 50%;
+    line-height: 45px;
+    text-align: center;
+}
+
+.logo_1 {
+    background: url(../img/login.png) center no-repeat;
+    background-size: 161px;
+    text-align: center;
+    padding: 82px 0 0;
+    height: 74px;
+}
+
+.input_m {
+    padding: 0 15px;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+}
+
+.mail_login .input_m .am-form .am-form-group .input_l {
+    background-color: #f7f7f7;
+    border: none;
+    height: 44px;
+    width: 100%;
+}
+
+.input_s {
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 100%;
+    height: 44px;
+    border: none;
+    margin-bottom: 1.5rem;
+}
+
+.record input {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #999999;
+    vertical-align: middle;
+    margin: 3px 3px 0 0;
+    background-color: #fff;
+}
+
+.record span,
+.record a {
+    font-size: 12px;
+    color: #999;
+    vertical-align: middle;
+}
+
+.relative {
+    position: relative;
+}
+
+.icon_e {
+    display: inline-block;
+    background: url(../img/icon2.png) no-repeat;
+}
+
+.eye {
+    background-position: 1px -43px;
+    width: 22px;
+    height: 20px;
+    background-size: 21px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+
+/*手机验证登陆*/
+
+.tel_login .input_m .am-form .am-form-group .input_l {
+    background-color: #f7f7f7;
+    border: none;
+    height: 44px;
+    width: 100%;
+}
+
+
+
+/*.tel_login .input_m .am-form .am-form-group .input_l1 {
+	background-color: #f7f7f7;
+	border: none;
+	height: 44px;
+	width: 80%;
+}*/
+
+.verify {
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.verify a {
+    color: #333;
+}

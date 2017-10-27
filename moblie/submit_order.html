@@ -1,0 +1,177 @@
+<!doctype html>
+<html class="no-js">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Hello Amaze UI</title>
+
+		<!-- Set render engine for 360 browser -->
+		<meta name="renderer" content="webkit">
+
+		<!-- No Baidu Siteapp-->
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+		<link rel="icon" type="image/png" href="assets/i/favicon.png">
+
+		<!-- Add to homescreen for Chrome on Android -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
+
+		<!-- Add to homescreen for Safari on iOS -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+		<link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+
+		<!-- Tile icon for Win8 (144x144 + tile color) -->
+		<meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+		<meta name="msapplication-TileColor" content="#0e90d2">
+
+		<link rel="stylesheet" href="assets/css/amazeui.min.css">
+		<link rel="stylesheet" href="assets/css/app.css">
+
+		<!--css样式-->
+		<link rel="stylesheet" type="text/css" href="css/submit_order.css" />
+	</head>
+
+	<body>
+		<!--页头-->
+		<header data-am-widget="header" class="am-header am-header-default header_line">
+			<div class="am-header-left am-header-nav" id="go_back1">
+				<a href="#left-link" class="">
+					<i class="icon_de icon_re"></i>
+				</a>
+			</div>
+
+			<div class="am-header-title">
+				<a href="#title-link" class="ever">
+					提交订单
+				</a>
+			</div>
+		</header>
+
+		<!--收货人信息-->
+		<div class="people_mess">
+			<div class="people_name">
+				<div class="people_name1 am-cf">
+					<div class="people_name1_a am-fl">
+						收货人：
+					</div>
+					<div class="people_name1_b am-fl">
+						<span>许博硕</span>
+						<span>178****4965</span>
+					</div>
+				</div>
+				<div class="people_name1 am-cf">
+					<div class="am-fl">
+						收货地址：
+					</div>
+					<div class="people_address am-fl">
+						山东省青岛市城阳区青岛农业大学西苑1号楼
+					</div>
+				</div>
+			</div>
+			<div class="people_arrows"></div>
+		</div>
+
+		<!--店铺信息-->
+		<div class="store">
+			<div class="store_n am-cf">
+				<div class="store_img am-fl">
+					<img src="img/store_s.png" />
+				</div>
+				<div class="store_name am-fl">
+					世果汇水果旗舰店
+				</div>
+				<div class="store_time am-fr">
+					预计发货时间：2017-10-02
+				</div>
+			</div>
+			<div class="store_goods am-cf">
+				<div class="store_goods_img am-fl">
+					<img src="img/store_goods.jpg" />
+					<div class="store_goods_img1">
+						预售
+					</div>
+				</div>
+				<div class="store_goods_n am-fl">
+					<div class="store_goods_n1">
+						世果汇 【送开果器】泰国进口百香果30个 新鲜水果 单果约60-80克
+					</div>
+					<div class="store_goods_n2">
+						<img src="img/seven.png" />
+						<span>不支持7天无理由退货</span>
+					</div>
+				</div>
+				<div class="store_num am-fr">
+					<p class="store_price1">¥379.00</p>
+					<p class="store_price2">X1</p>
+				</div>
+			</div>
+		</div>
+
+		<!--结算栏-->
+		<div class="account">
+			<div class="account1">
+				<span>结算</span>
+			</div>
+			<div class="account1 am-cf">
+				<span class="am-fl">商品金额</span>
+				<span class="am-fr">¥28.80</span>
+			</div>
+			<div class="account1 am-cf">
+				<span class="am-fl">商品应付总计</span>
+				<span class="am-fr">¥28.80</span>
+			</div>
+			<div class="account1 am-cf">
+				<span class="am-fl">运费</span>
+				<span class="am-fr">¥0.00</span>
+			</div>
+			<div class="account1 am-cf">
+				<span class="am-fl">税费</span>
+				<span class="am-fr">¥0.00</span>
+			</div>
+			<div class="account1 am-cf">
+				<span class="am-fl">应付金额</span>
+				<span class="am-fr">¥28.80</span>
+			</div>
+		</div>
+
+		<!--提交订单-->
+		<div class="submit am-cf">
+			<div class="submit1 am-fl">
+				<span>实付款：&nbsp;&nbsp;¥</span>
+				<span>28.80</span>
+			</div>
+			<div class="submit2 am-fr">
+				<a href="pay.html">
+					提交订单
+				</a>
+			</div>
+
+		</div>
+
+		<!--[if (gte IE 9)|!(IE)]><!-->
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--<![endif]-->
+		<!--[if lte IE 8 ]>
+			<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+			<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+			<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+		<![endif]-->
+		<script src="assets/js/amazeui.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				//返回上一步
+				$("#go_back1").click(function() {
+					history.back();
+				});
+			})
+		</script>
+	</body>
+
+</html>

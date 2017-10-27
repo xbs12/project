@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/product.css" />
+	</head>
+
+	<body class="body_product">
+		<!--导航栏-->
+		<div class="top">
+			<div class="container clearfix">
+				<div class="logo fl">
+					<img src="img/logo.png" height="44" />
+				</div>
+				<ul class="fr clearfix">
+					<li class="navitem fl">
+						<a class="aaa" href="index.html">
+							<span class="span_top">首页</span>
+							<span class="span_bottom">首页</span>
+						</a>
+					</li>
+					<li class="navitem fl relative">
+						<a class="aaa" href="product.html">
+							<span class="span_top">产品</span>
+							<span class="span_bottom">产品</span>
+						</a>
+					</li>
+					<li class="navitem fl">
+						<a class="aaa" href="team.html">
+							<span class="span_top">团队</span>
+							<span class="span_bottom">团队</span>
+						</a>
+					</li>
+					<li class="navitem fl">
+						<a class="aaa" href="service.html">
+							<span class="span_top">服务</span>
+							<span class="span_bottom">服务</span>
+						</a>
+					</li>
+					<li class="navitem fl">
+						<a class="aaa" href="news.html">
+							<span class="span_top">新闻</span>
+							<span class="span_bottom">新闻</span>
+						</a>
+					</li>
+					<li class="navitem fl relative">
+						<a class="aaa" href="#">
+							<span class="span_top">关于&nbsp;∨</span>
+							<span class="span_bottom">关于&nbsp;∨</span>
+						</a>
+						<ol class="select_about">
+							<li>
+								<a href="#">
+									<span>品牌</span>
+								</a>
+							</li>
+						</ol>
+					</li>
+					<li class="navitem fl">
+						<a class="aaa" href="#">
+							<span class="span_top">联系</span>
+							<span class="span_bottom">联系</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="product_top">
+			<div class="container clearfix">
+				<div class="title_product fr">
+					<span>您的位置：</span>
+					<a href="#">首页</a>
+					<i>-</i>
+					<a class="title_product_1" href="#">团队</a>
+				</div>
+			</div>
+		</div>
+		<div class="container distance_top">
+			<ul>
+				<li>
+					<a href="#">
+						<div class="team_1 relative">
+							<img src="img/team_1.jpg" />
+							<div class="team_name">
+								妹岛和世 Kazuyo Sejima
+							</div>
+							<div class="team_name1">
+								创始人
+							</div>
+							<div class="team_name2">
+								Baidu SkyDrive provides file backup for your 本周的新股 申购日历在2014年10Baidu SkyDrive provides file backup for your 本周的新股 申购日历在2014年10Baidu SkyDrive provides file backup for your 本周的新股 申购日历在2014年10Baidu SkyDrive provides file backup for your 本周的新股 申购日历在2014年10Baidu SkyDrive provides file backup for your 本周的新股 申购日历在2014年10Baidu SkyDrive provides file backup for your 本周的新股 申购日历在2014年10
+							</div>
+							<div class="team_name3"></div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<div class="team_1 relative">
+							<img src="img/team_2.jpg" />
+							<div class="team_name">
+								妹岛和世 Kazuyo Sejima
+							</div>
+							<div class="team_name1">
+								创始人
+							</div>
+							<div class="team_name2">
+								Baidu SkyDrive provides file backup for your 本周的新股 申购日历在2014年10Baidu SkyDrive provides file backup for your 本周的新股 申购日历在2014年10Baidu SkyDrive provides file backup for your 本周的新股 申购日历在2014年10Baidu SkyDrive provides file backup for your 本周的新股 申购日历在2014年10Baidu SkyDrive provides file backup for your 本周的新股 申购日历在2014年10Baidu SkyDrive provides file backup for your 本周的新股 申购日历在2014年10
+							</div>
+							<div class="team_name3"></div>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="num_product">
+			<a href="#"><span>1</span></a>
+		</div>
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			//导航栏
+			$(".top li").eq(5).hover(function() {
+				$(".select_about").css("display", "block");
+			}, function() {
+				$(".select_about").css("display", "none")
+			});
+			$(".distance_top").find("li").css("margin-top", "200px");
+			$(".distance_top").find("li").css("opacity", "0");
+			$(".distance_top").find("li").eq(0).stop(true).animate({
+				"margin-top": 0,
+				"opacity": 1
+			}, 500, 'swing');
+			$(".distance_top").find("li").eq(1).stop(true).animate({
+				"margin-top": 0,
+				"opacity": 1
+			}, 800, 'swing');
+		</script>
+	</body>
+
+</html>

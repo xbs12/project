@@ -1,0 +1,120 @@
+@charset "utf-8";
+.a_user_list .a_user_title {
+	margin-right: 20px;
+	margin-top: 15px;
+	padding: 10px 0 10px 0;
+	font-size: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.a_user_list li {
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-radius: 5px;solid #ddd;
+	margin-right: 20px;
+	padding: 10px;
+	/*height: 30px;
+	line-height: 30px;*/
+	font-size: 14px;
+}
+a:hover {
+	color: #898989;
+}
+
+a:hover .a_user_list li {
+	color: #e74c3c;
+}
+
+
+.a_buy_card_list {
+	margin-top: 15px;
+	width: 1000px;
+}
+
+.a_coupon_information {
+	height: 42px;
+	width: 100%;
+	background: #F8F8F8;
+	font-size: 16px;
+	line-height: 42px;
+	margin-bottom: 40px;
+}
+
+.a_coupon_information span {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.a_buy_card_list ul .a_quan {
+	
+	background: url(../img/coupon.png) no-repeat;
+	width: 310px;
+	height: 126px;
+	background-size: 100% 100%;
+	float: left;
+	display: inline;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	color: white;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.a_buy_card_list ul li h3{
+	padding-top: 40px;
+}
+.a_buy_card_code{
+	margin-bottom: 20px;
+	display: none;
+}
+.a_buy_card_code input{
+	width: 200px;
+	height: 30px;
+	/*border-radius: 5px;*/
+}
+.a_buy_card_code .sure{
+	padding: 5px 10px;
+	color: white;
+	border: 1px solid #e74c3c;
+	background-color: #e74c3c;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+.a_buy_card_code .consle{
+	padding: 5px 10px;
+	border: 1px solid #e74c3c;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+.a_over_time a{
+	color: red;
+}
+.a_hot_intro li .a_hot_intro_img img{
+	width: 222px;
+	height: 222px;
+	font-size: 0px;
+}
+.a_hot_intro li .a_hot_intro_content{
+	padding-left: 20px;
+	width: 202px;
+	height: 106px;
+}
+.a_maket_price{
+	font-family: "微软雅黑";
+	text-decoration: line-through;
+}
+.a_hot_intro li .a_hot_intro_content span:first-child{
+	color: red;
+}
+h2{
+	margin-top: 200px;
+}
+.a_hot_intro{
+	/*margin-bottom: 200px;*/
+	width: 1110px;
+	margin: 0 auto;
+}

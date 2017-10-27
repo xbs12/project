@@ -1,0 +1,124 @@
+<!doctype html>
+<html class="no-js">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>收货地址管理</title>
+		<!-- Set render engine for 360 browser -->
+		<meta name="renderer" content="webkit">
+		<!-- No Baidu Siteapp-->
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<link rel="icon" type="image/png" href="assets/i/favicon.png">
+		<!-- Add to homescreen for Chrome on Android -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
+		<!-- Add to homescreen for Safari on iOS -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+		<link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+		<!-- Tile icon for Win8 (144x144 + tile color) -->
+		<meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+		<meta name="msapplication-TileColor" content="#0e90d2">
+		<link rel="stylesheet" href="assets/css/amazeui.min.css">
+		<link rel="stylesheet" href="assets/css/app.css">
+
+		<link rel="stylesheet" type="text/css" href="css/amazeui.address.min.css" />
+		<!--css样式-->
+		<link rel="stylesheet" type="text/css" href="css/add_address.css" />
+	</head>
+
+	<body>
+		<!--页头-->
+		<header data-am-widget="header" class="am-header am-header-default">
+			<div class="am-header-title">
+				<a href="#title-link" class="ever">
+					增加收货地址
+				</a>
+			</div>
+			<div class="am-header-right am-header-nav">
+				<a href="index.html" class="home"></a>
+				<a href="user_center.html" class="self1"></a>
+			</div>
+		</header>
+
+		<!--收货地址填写-->
+		<form action="" method="">
+			<div class="section">
+				<div class="name line">
+					<input type="text" name="name" id="" value="" placeholder="姓名" />
+				</div>
+				<div class="name line">
+					<input type="text" name="phone" id="" value="" placeholder="手机号码" />
+				</div>
+				<div class="name line">
+					<input type="text" name="city" id="city" value="" placeholder="省份、城市、区县" readonly />
+				</div>
+				<div class="name line">
+					<input type="text" name="street" id="" value="" placeholder="详细地址, 如街道、楼盘号等" />
+				</div>
+			</div>
+			<div class="section1">
+				<label for=""></label>
+				<input type="checkbox" name="" id="isDefault" checked="" value="true" /> 设为默认地址
+			</div>
+		</form>
+
+		<div class="am-g marg">
+			<a href="user_center.html">
+				<div class="am-u-sm-6 pad left">
+					取消
+				</div>
+			</a>
+			<div class="am-u-sm-6 pad right" id="saveBtn">
+				保存
+			</div>
+		</div>
+
+		<!--[if (gte IE 9)|!(IE)]><!-->
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--<![endif]-->
+		<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+		<script src="assets/js/amazeui.min.js"></script>
+		<script src="js/iscroll.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/address.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				//初始化 address
+				$("#city").address({
+					prov: "山东省",
+					city: "青岛市",
+					district: "市南区",
+					scrollToCenter: true,
+					//footer: true,
+					selectEnd: function(json, address) {
+						console.log(json);
+						$("#city").val(json.prov + " " + json.city + " " + json.district);
+					}
+				});
+
+				$("#saveBtn").click(function() {
+					var isChecked = $("#isDefault").is(":checked");
+					var data = $("form").serialize() + "&account=" + sessionStorage.account + "&isDefault=" + isChecked;
+					console.log(data);
+					$.post("/users/insertAddress/", data, function(result) {
+						if(result.status) {
+							location.href = "/moblie/address.html";
+						} else {
+							alert(result.msg)
+						}
+					});
+				});
+			})
+		</script>
+	</body>
+
+</html>

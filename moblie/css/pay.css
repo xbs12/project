@@ -1,0 +1,208 @@
+@charset "utf-8";
+body {
+	background-color: #F1F1F1;
+}
+
+
+/*雪碧图*/
+
+.icon_pa {
+	display: inline-block;
+	background: url(../img/icon4.png) no-repeat;
+}
+
+
+/*页头*/
+
+.am-header {
+	height: 45px;
+	line-height: 45px;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.am-header-default {
+	background-color: #FFFFFF;
+}
+
+.am-header-default .am-header-nav>a {
+	display: inline-block;
+	min-width: 22px;
+	text-align: center;
+	color: #eee;
+}
+
+.am-header-default .am-header-title a {
+	color: #000;
+	font-size: 18px;
+}
+
+.am-header-default .am-header-nav>a+a {
+	margin-left: 10px;
+}
+
+.ever {
+	vertical-align: middle;
+}
+
+.home {
+	background: url(../img/home.png) no-repeat;
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+	background-size: 22px;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.self {
+	background-image: url(../img/logo.png);
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	background-size: 24px;
+	vertical-align: middle;
+}
+
+
+/*订单以提交*/
+
+.ordered {
+	background-color: #FFFFFF;
+	margin-bottom: 0.83rem;
+}
+
+.ordered_a {
+	padding: 1rem 0;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.icon_ok {
+	width: 26px;
+	height: 27px;
+	background-position: 0 -349px;
+	background-size: 500px;
+}
+
+.icon_ok1 {
+	vertical-align: middle;
+}
+
+.ordered_a span {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.ordered_b {
+	margin: 0 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #cbcbcb;
+	font-size: 14px;
+	color: #656565;
+	text-align: center;
+}
+
+.ordered_b b {
+	font-weight: normal;
+}
+
+.ordered_c {
+	padding: 10px 0;
+	font-size: 12px;
+	text-align: center;
+}
+
+.ordered_c b {
+	padding-left: 8px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #d22147;
+}
+
+
+/*支付方式*/
+
+.pay_way {
+	background-color: #FFF;
+	width: 100%;
+}
+
+.pay_title {
+	padding: 15px;
+	font-size: 14px;
+	line-height: 14px;
+	border-bottom: 1px solid #ddd;
+}
+
+.pay_way_1 {
+	padding: 0 1.25rem;
+}
+
+.pay_way_a {
+	border-bottom: 1px solid #ddd;
+	line-height: 55px;
+}
+
+.pay_img {
+	width: 30px;
+}
+
+.pay_img img {
+	width: 100%;
+}
+
+.pay_img1 {
+	font-size: 16px;
+	padding-left: 1.66666667rem;
+}
+
+
+/*单选框样式*/
+
+.pay_img3 input {
+	display: none;
+}
+
+.pay_img3 label {
+	cursor: pointer;
+	display: inline-block;
+	background: url(../img/icon4.png) no-repeat;
+	width: 22px;
+	height: 22px;
+	background-position: 1px -243px;
+	background-size: 500px;
+	margin: 0;
+	vertical-align: middle;
+}
+
+.pay_img3 label.checked {
+	background-position: 0 -276px;
+}
+
+.pay_way_a:last-child {
+	border: none;
+}
+
+
+/*立即支付*/
+
+.outright {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #FFFFFF;
+	padding: 0.8rem 0;
+	border-top: 1px solid #ddd;
+}
+
+.outright1 {
+	background-color: #d22147;
+	width: 80%;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #fff;
+	margin: 0 auto;
+}

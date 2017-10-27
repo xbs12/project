@@ -1,0 +1,244 @@
+@charset "utf-8";
+.a_logo img{
+	width: 156px;
+	height: 42px;
+	margin-top: 16px;
+}
+.a_function{
+	margin-top: 16px;
+	height: 42px;
+	
+}
+.a_search{
+	width: 250px;
+	height: 32px;
+	margin-right: 8px;
+	position: relative;
+}
+.a_search_box{
+	width: 186px;
+	height: 32px;
+	border: 1px solid #F8F8F8;
+	border-radius: 16px;
+	line-height: 32px;
+	padding-left: 10px;
+	background-color: #F8F8F8;
+	outline: none;
+	font-size: 14px;
+}
+.a_icon{
+	cursor: pointer;
+	line-height: px;
+	text-align: center;
+	height: 32px;
+	width: 30px;
+	position: absolute;
+	right: 4px;
+	top: 0;
+}
+.a_icon img{
+	margin-top: 6px;
+	height: 19px;
+	width: 18px;
+}
+.a_search ul{
+	display: none;
+	position: absolute;
+	top: 35px;
+	left: 0;
+	width: 250px;
+	max-height: 272px;
+	overflow-y: scroll;
+	z-index: 5;
+	height: auto;
+	background: white;
+}
+.a_search ul li{
+	height: 30px;
+	line-height: 30px;
+	text-indent: 15px;
+	text-align: left;
+	font-size: 14px;
+}
+.a_user li{
+	padding-top: 6px;
+	padding-left:15px ;
+	padding-right: 15px;
+	height: 21px;
+	width: 50px;
+}
+.a_user li:nth-child(3) ul{
+	display: none;
+}
+.a_dwonload{
+	display: inline-block;
+	background: url(../img/icon_bg.png) no-repeat;
+	background-size: auto 200px; 
+}
+
+.a_dwonload_icon{
+	background-position: -38px -84px;
+	height: 20px;
+	width: 17px;
+}
+.a_heart_icon{
+	background-position: 0px -84px;
+	height: 20px;
+	width: 17px;
+}
+.a_user_icon{
+	background-position: -18px -84px;
+	height: 20px;
+	width: 17px;
+}
+.a_user li:first-child{
+	position: relative;
+}
+.a_user li:first-child .a_span_icon{
+	display: none;
+	position: absolute;
+	background-position: -28px -160px;
+	height: 11px;
+	width: 16px;
+	z-index: 1;
+	top: 30px;
+}
+.a_user li:first-child img{
+	display: none;
+	position: absolute;
+	border: 2px solid #f7f7f7;
+	left: -40px;
+	top: 40px;
+	z-index: 100000000000;
+}
+.a_user li:first-child:hover .a_span_icon{
+	display: block;
+}
+.a_user li:first-child:hover img{
+	display: block;
+}
+.a_user li:last-child{
+	position: relative;
+}
+.a_user li:last-child .a_span_icon{
+	display: none;
+	position: absolute;
+	background-position: -28px -160px;
+	height: 11px;
+	width: 16px;
+
+	top: 30px;
+}
+.a_user li:last-child ul{
+	display: none;
+	width: 50px;
+	text-align: center;
+	font-size: 14px;
+	border: 2px solid #f7f7f7;
+	position: absolute;
+	border: 2px solid #f7f7f7;
+	left: -40px;
+	top: 40px;
+}
+.a_headLine{
+	padding-top: 20px;
+	border-bottom: 2px solid #F8F8F8;
+}
+.a_headLine1{
+	border-bottom: 3px solid #F8F8F8;
+	/*margin-bottom: 45px;*/
+}
+.a_tip{
+	padding-top: 15px;
+	position: relative;
+	font-size: 14px;
+}
+
+.a_tip .a_li{
+	width: 100px;
+	text-align: center;
+	color: #4A4A4A;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #FFFFFF;
+}
+.a_tip .a_li:hover{
+	color: #e74c3c;
+	border-bottom: 1px solid  #e74c3c;
+}
+.a_tip  ol li{
+	width: 100px;
+	text-align: center;
+	color: #4A4A4A;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	background-color: #F8F8F8;
+}
+.a_tip  ol li:hover{
+	color: #e74c3c;
+}
+ol{
+	display: none;
+	position: absolute;
+	top: 48px;
+	left: 0;
+	width: 1150px;
+	background-color: #F8F8F8;
+	z-index: 10000;
+}
+.a_bottom{
+	width: 100%;
+	height: 100%;
+	background-color:#F8F8F8;
+	margin-top: 100px;
+}
+.a_content li{
+	padding: 20px 50px 20px 0;
+}
+.a_about{
+	background-position: 0px -134px;
+	width: 14px;
+	height: 18px;
+}
+.a_buy{
+	background-position: -214px -134px;
+	width: 20px;
+	height: 18px;
+}
+.a_book{
+	background-position: -214px -134px;
+	width: 20px;
+	height: 18px;
+}
+.a_question{
+	background-position: -117px -134px;
+	width: 18px;
+	height: 18px;
+}
+.a_content1 li{
+	margin-bottom: 10px;
+	overflow: hidden;
+	width: 200px;
+	line-height: 15px;
+	text-align: center;
+	border-right: 1px solid black;
+	/*height: 15px;*/
+}
+.a_content2 li{
+	margin-bottom: 10px;
+	overflow: hidden;
+	width: 360px;
+	line-height: 15px;
+	text-align: center;
+	border-right: 1px solid black;
+	/*height: 15px;*/
+}
+.a_fix{
+	display: none;
+	width: 100%;
+	position: fixed;
+	background-color: white;
+	top: 0;
+	left: 0;
+	border-bottom: 1px solid #F8F8F8;
+	z-index: 10;
+}

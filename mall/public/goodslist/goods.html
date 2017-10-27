@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+		<title>商品管理</title>
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="css/goods.css" />
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	</head>
+
+	<body>
+
+		<!--<div class="main">
+			<div class="left_main">
+				<div class="goods_sign">
+					<img src="img/goods.png" />
+					<div class="goods_sign_title">
+						商品
+					</div>
+				</div>
+				<ul class="nav nav-pills nav-stacked list_a">
+					<li role="presentation">
+						<a href="#">商品发布</a>
+					</li>
+					<li role="presentation">
+						<a href="#">淘宝导入</a>
+					</li>
+					<li role="presentation">
+						<a href="#">出售中的商品</a>
+					</li>
+					<li role="presentation">
+						<a href="#">仓库中的商品</a>
+					</li>
+					<li role="presentation">
+						<a href="#">关联样式</a>
+					</li>
+					<li role="presentation">
+						<a href="#">商品规格</a>
+					</li>
+					<li role="presentation">
+						<a href="#">图片空间</a>
+					</li>
+				</ul>
+			</div>
+			<div class="right_main">
+
+			</div>
+		</div>-->
+		<div class="container-fluid">
+
+			<div class="row">
+				<div class="col-lg-2 left_main">
+					<div class="row">
+						<div class="col-lg-4"></div>
+						<div class="col-lg-8 move_padding">
+							<div class="goods_sign">
+								<img src="img/goods.png" />
+								<div class="goods_sign_title">
+									商品
+								</div>
+							</div>
+							<ul class="list_a">
+								<li>
+									<a href="#">商品发布</a>
+								</li>
+								<li>
+									<a href="#">淘宝导入</a>
+								</li>
+								<li class="active_a">
+									<a href="#">出售中的商品</a>
+								</li>
+								<li>
+									<a href="#">仓库中的商品</a>
+								</li>
+								<li>
+									<a href="#">关联样式</a>
+								</li>
+								<li>
+									<a href="#">商品规格</a>
+								</li>
+								<li>
+									<a href="#">图片空间</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-9 right_main">
+					<div class="right_top">
+						<img src="img/conputers.png" />
+						<span>&nbsp;商家管理中心&nbsp;</span>
+						<i>&nbsp;>&nbsp;</i>
+						<span>&nbsp;商品&nbsp;</span>
+						<i>&nbsp;>&nbsp;</i>
+						<span>&nbsp;出售中的商品&nbsp;</span>
+					</div>
+					<div class="container2">
+						<div class="row">
+							<div class="col-lg-5 text-center">
+								商品名称
+							</div>
+							<div class="col-lg-2 text-center">
+								价格
+							</div>
+							<div class="col-lg-2 text-center">
+								库存
+							</div>
+							<div class="col-lg-2 text-center">
+								发布时间
+							</div>
+							<div class="col-lg-1 text-center">
+								操作
+							</div>
+						</div>
+					</div>
+					<table class="table table-striped">
+						<tr>
+							<td colspan="5">平台货号：10128765</td>
+						</tr>
+						<tr class="goods_ver">
+							<td class="clearfix col-lg-5">
+								<div class="goods_img fl">
+									<img src="img/goods_list_03.png" />
+								</div>
+								<div class="fl">
+									<div class="goods_detail goods_fz">
+										[周黑鸭旗舰店_锁鲜装]盒装鸭翅190g*2武汉特产官方食品零食
+									</div>
+									<div class="goods_sort goods_fz">
+										商家货号：22222222222
+									</div>
+								</div>
+							</td>
+							<td class="col-lg-2 text-center goods_fw">&yen;56</td>
+							<td class="col-lg-2 text-center goods_fw">18297件</td>
+							<td class="col-lg-2 text-center goods_fw">2017-09-22</td>
+							<td class="col-lg-1 text-center clearfix">
+								<div class="fl">
+									<div class="goods_do">
+										<img src="img/goods_do.png" />
+									</div>
+									<div class="goods_do_word goods_fz">
+										编辑
+									</div>
+								</div>
+								<div class="goods_line fl"></div>
+								<div class="fl">
+									<div class="goods_del">
+										<img src="img/goods_del.png" />
+									</div>
+									<div class="goods_del_word goods_fz">
+										删除
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="5">平台货号：10128765</td>
+						</tr>
+						<tr class="goods_ver">
+							<td class="clearfix col-lg-5">
+								<div class="goods_img fl">
+									<img src="img/goods_list_03.png" />
+								</div>
+								<div class="fl">
+									<div class="goods_detail goods_fz">
+										[周黑鸭旗舰店_锁鲜装]盒装鸭翅190g*2武汉特产官方食品零食
+									</div>
+									<div class="goods_sort goods_fz">
+										商家货号：22222222222
+									</div>
+								</div>
+							</td>
+							<td class="col-lg-2 text-center goods_fw">&yen;56</td>
+							<td class="col-lg-2 text-center goods_fw">18297件</td>
+							<td class="col-lg-2 text-center goods_fw">2017-09-22</td>
+							<td class="col-lg-1 text-center clearfix">
+								<div class="fl">
+									<div class="goods_do">
+										<img src="img/goods_do.png" />
+									</div>
+									<div class="goods_do_word goods_fz">
+										编辑
+									</div>
+								</div>
+								<div class="goods_line fl"></div>
+								<div class="fl">
+									<div class="goods_del">
+										<img src="img/goods_del.png" />
+									</div>
+									<div class="goods_del_word goods_fz">
+										删除
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="5">平台货号：10128765</td>
+						</tr>
+						<tr class="goods_ver">
+							<td class="clearfix col-lg-5">
+								<div class="goods_img fl">
+									<img src="img/goods_list_03.png" />
+								</div>
+								<div class="fl">
+									<div class="goods_detail goods_fz">
+										[周黑鸭旗舰店_锁鲜装]盒装鸭翅190g*2武汉特产官方食品零食
+									</div>
+									<div class="goods_sort goods_fz">
+										商家货号：22222222222
+									</div>
+								</div>
+							</td>
+							<td class="col-lg-2 text-center goods_fw">&yen;56</td>
+							<td class="col-lg-2 text-center goods_fw">18297件</td>
+							<td class="col-lg-2 text-center goods_fw">2017-09-22</td>
+							<td class="col-lg-1 text-center clearfix">
+								<div class="fl">
+									<div class="goods_do">
+										<img src="img/goods_do.png" />
+									</div>
+									<div class="goods_do_word goods_fz">
+										编辑
+									</div>
+								</div>
+								<div class="goods_line fl"></div>
+								<div class="fl">
+									<div class="goods_del">
+										<img src="img/goods_del.png" />
+									</div>
+									<div class="goods_del_word goods_fz">
+										删除
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="5">平台货号：10128765</td>
+						</tr>
+						<tr class="goods_ver">
+							<td class="clearfix col-lg-5">
+								<div class="goods_img fl">
+									<img src="img/goods_list_03.png" />
+								</div>
+								<div class="fl">
+									<div class="goods_detail goods_fz">
+										[周黑鸭旗舰店_锁鲜装]盒装鸭翅190g*2武汉特产官方食品零食
+									</div>
+									<div class="goods_sort goods_fz">
+										商家货号：22222222222
+									</div>
+								</div>
+							</td>
+							<td class="col-lg-2 text-center goods_fw">&yen;56</td>
+							<td class="col-lg-2 text-center goods_fw">18297件</td>
+							<td class="col-lg-2 text-center goods_fw">2017-09-22</td>
+							<td class="col-lg-1 text-center clearfix">
+								<div class="fl">
+									<div class="goods_do">
+										<img src="img/goods_do.png" />
+									</div>
+									<div class="goods_do_word goods_fz">
+										编辑
+									</div>
+								</div>
+								<div class="goods_line fl"></div>
+								<div class="fl">
+									<div class="goods_del">
+										<img src="img/goods_del.png" />
+									</div>
+									<div class="goods_del_word goods_fz">
+										删除
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="5">平台货号：10128765</td>
+						</tr>
+						<tr class="goods_ver">
+							<td class="clearfix col-lg-5">
+								<div class="goods_img fl">
+									<img src="img/goods_list_03.png" />
+								</div>
+								<div class="fl">
+									<div class="goods_detail goods_fz">
+										[周黑鸭旗舰店_锁鲜装]盒装鸭翅190g*2武汉特产官方食品零食
+									</div>
+									<div class="goods_sort goods_fz">
+										商家货号：22222222222
+									</div>
+								</div>
+							</td>
+							<td class="col-lg-2 text-center goods_fw">&yen;56</td>
+							<td class="col-lg-2 text-center goods_fw">18297件</td>
+							<td class="col-lg-2 text-center goods_fw">2017-09-22</td>
+							<td class="col-lg-1 text-center clearfix">
+								<div class="fl">
+									<div class="goods_do">
+										<img src="img/goods_do.png" />
+									</div>
+									<div class="goods_do_word goods_fz">
+										编辑
+									</div>
+								</div>
+								<div class="goods_line fl"></div>
+								<div class="fl">
+									<div class="goods_del">
+										<img src="img/goods_del.png" />
+									</div>
+									<div class="goods_del_word goods_fz">
+										删除
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="5">平台货号：10128765</td>
+						</tr>
+						<tr class="goods_ver">
+							<td class="clearfix col-lg-5">
+								<div class="goods_img fl">
+									<img src="img/goods_list_03.png" />
+								</div>
+								<div class="fl">
+									<div class="goods_detail goods_fz">
+										[周黑鸭旗舰店_锁鲜装]盒装鸭翅190g*2武汉特产官方食品零食
+									</div>
+									<div class="goods_sort goods_fz">
+										商家货号：22222222222
+									</div>
+								</div>
+							</td>
+							<td class="col-lg-2 text-center goods_fw">&yen;56</td>
+							<td class="col-lg-2 text-center goods_fw">18297件</td>
+							<td class="col-lg-2 text-center goods_fw">2017-09-22</td>
+							<td class="col-lg-1 text-center clearfix">
+								<div class="fl">
+									<div class="goods_do">
+										<img src="img/goods_do.png" />
+									</div>
+									<div class="goods_do_word goods_fz">
+										编辑
+									</div>
+								</div>
+								<div class="goods_line fl"></div>
+								<div class="fl">
+									<div class="goods_del">
+										<img src="img/goods_del.png" />
+									</div>
+									<div class="goods_del_word goods_fz">
+										删除
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="5">平台货号：10128765</td>
+						</tr>
+						<tr class="goods_ver">
+							<td class="clearfix col-lg-5">
+								<div class="goods_img fl">
+									<img src="img/goods_list_03.png" />
+								</div>
+								<div class="fl">
+									<div class="goods_detail goods_fz">
+										[周黑鸭旗舰店_锁鲜装]盒装鸭翅190g*2武汉特产官方食品零食
+									</div>
+									<div class="goods_sort goods_fz">
+										商家货号：22222222222
+									</div>
+								</div>
+							</td>
+							<td class="col-lg-2 text-center goods_fw">&yen;56</td>
+							<td class="col-lg-2 text-center goods_fw">18297件</td>
+							<td class="col-lg-2 text-center goods_fw">2017-09-22</td>
+							<td class="col-lg-1 text-center clearfix">
+								<div class="fl">
+									<div class="goods_do">
+										<img src="img/goods_do.png" />
+									</div>
+									<div class="goods_do_word goods_fz">
+										编辑
+									</div>
+								</div>
+								<div class="goods_line fl"></div>
+								<div class="fl">
+									<div class="goods_del">
+										<img src="img/goods_del.png" />
+									</div>
+									<div class="goods_del_word goods_fz">
+										删除
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="5">平台货号：10128765</td>
+						</tr>
+						<tr class="goods_ver">
+							<td class="clearfix col-lg-5">
+								<div class="goods_img fl">
+									<img src="img/goods_list_03.png" />
+								</div>
+								<div class="fl">
+									<div class="goods_detail goods_fz">
+										[周黑鸭旗舰店_锁鲜装]盒装鸭翅190g*2武汉特产官方食品零食
+									</div>
+									<div class="goods_sort goods_fz">
+										商家货号：22222222222
+									</div>
+								</div>
+							</td>
+							<td class="col-lg-2 text-center goods_fw">&yen;56</td>
+							<td class="col-lg-2 text-center goods_fw">18297件</td>
+							<td class="col-lg-2 text-center goods_fw">2017-09-22</td>
+							<td class="col-lg-1 text-center clearfix">
+								<div class="fl">
+									<div class="goods_do">
+										<img src="img/goods_do.png" />
+									</div>
+									<div class="goods_do_word goods_fz">
+										编辑
+									</div>
+								</div>
+								<div class="goods_line fl"></div>
+								<div class="fl">
+									<div class="goods_del">
+										<img src="img/goods_del.png" />
+									</div>
+									<div class="goods_del_word goods_fz">
+										删除
+									</div>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="col-lg-1"></div>
+		</div>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+
+</html>

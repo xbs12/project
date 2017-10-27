@@ -1,0 +1,280 @@
+@charset "utf-8";
+
+/*==========以下部分是Validform必须的===========*/
+
+.Validform_checktip {
+	margin-left: 8px;
+	line-height: 20px;
+	height: 20px;
+	overflow: hidden;
+	color: #999;
+	font-size: 12px;
+}
+
+.Validform_right {
+	color: #71b83d;
+	/*padding-left: 20px;*/
+	background: url(../images/right.png) no-repeat left center;
+}
+
+.Validform_wrong {
+	color: red;
+	/*padding-left: 20px;*/
+	white-space: nowrap;
+	background: url(../images/error.png) no-repeat left center;
+}
+
+.Validform_loading {
+	/*padding-left: 20px;*/
+	background: url(../images/onLoad.gif) no-repeat left center;
+}
+
+.Validform_error {
+	background-color: #ffe7e7;
+}
+
+#Validform_msg {
+	color: #7d8289;
+	font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif;
+	width: 280px;
+	-webkit-box-shadow: 2px 2px 3px #aaa;
+	-moz-box-shadow: 2px 2px 3px #aaa;
+	background: #fff;
+	position: absolute;
+	top: 0px;
+	right: 50px;
+	z-index: 99999;
+	display: none;
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#999999');
+}
+
+#Validform_msg .iframe {
+	position: absolute;
+	left: 0px;
+	top: -1px;
+	z-index: -1;
+}
+
+#Validform_msg .Validform_title {
+	line-height: 25px;
+	height: 25px;
+	text-align: left;
+	font-weight: bold;
+	padding: 0 8px;
+	color: #fff;
+	position: relative;
+	background-color: #000;
+}
+
+#Validform_msg a.Validform_close:link,
+#Validform_msg a.Validform_close:visited {
+	line-height: 22px;
+	position: absolute;
+	right: 8px;
+	top: 0px;
+	color: #fff;
+	text-decoration: none;
+}
+
+#Validform_msg a.Validform_close:hover {
+	color: #cc0;
+}
+
+#Validform_msg .Validform_info {
+	padding: 8px;
+	border: 1px solid #000;
+	border-top: none;
+	text-align: left;
+}
+
+body {
+	background-color: #F9F9F9;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.container1 {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.left_main {
+	background-color: #f9f9f9;
+	/*overflow: hidden;*/
+}
+
+.move_padding {
+	padding-right: 0;
+}
+
+.list_a {
+	list-style: none;
+	padding: 0;
+	padding-top: 30px;
+}
+
+.list_a li {
+	padding: 10px 15px;
+}
+
+.list_a li a {
+	padding-left: 20px;
+	text-decoration: none;
+}
+
+.list_a li:hover {
+	border-left: 2px solid #00FFFF;
+	background-color: #FFFFFF;
+}
+
+.active_a {
+	border-left: 2px solid #00FFFF;
+	background-color: #FFFFFF;
+}
+
+.goods_sign {
+	border: 5px solid #dddddd;
+	border-radius: 10px;
+	text-align: center;
+	padding: 9px 0 0 0;
+	width: 100px;
+	margin: 11px auto 0;
+}
+
+.goods_sign_title {
+	font-weight: bold;
+}
+
+
+/*表格*/
+
+.table {
+	margin-bottom: 0;
+}
+
+.list_a li {
+	padding-left: 10px;
+}
+
+.right_main {
+	background-color: #FFFFFF;
+	border-left: 1px solid #cccccc;
+}
+
+.right_top {
+	padding-top: 20px;
+}
+
+.container2 {
+	padding: 26px 2% 11px 0;
+	font-weight: bold;
+}
+
+.goods_img {
+	padding-right: 15px;
+}
+
+
+/*字体*/
+
+.goods_fz {
+	font-size: 12px;
+}
+
+.goods_fw {
+	font-weight: bold;
+}
+
+.goods_detail {
+	padding-bottom: 4px;
+}
+
+.goods_sort {
+	padding-bottom: 10px;
+}
+
+.goods_line {
+	border-left: 1px solid #e6e6e6;
+	height: 40px;
+	margin: 0 6px;
+}
+
+
+/*第二个页面*/
+
+.goods_edit {
+	margin-top: 12px;
+	color: #FFFFFF;
+	background-color: #27a9e3;
+	font-size: 16px;
+	width: 100px;
+	padding: 7px 0 9px 15px;
+}
+
+.goods_edit_line {
+	border-top: 3px solid #27A9E3;
+	width: 100%;
+}
+
+
+/*列表中*/
+
+.goods_need {
+	color: red;
+}
+
+.goods_message {
+	font-weight: 600;
+}
+
+.select_a {
+	width: 16%;
+	margin-right: 2%;
+}
+
+.input_text {
+	width: 50%;
+}
+
+.goods_name_re {
+	padding: 14px 0 0 0;
+	color: #c1bbbf;
+}
+
+.input_text1 {
+	width: 30%;
+}
+
+.goods_imgm {
+	min-height: 180px;
+}
+
+.input_img {
+	cursor: pointer;
+	border: 1px solid #EEEEEE;
+	padding: 25px;
+	float: left;
+}
+
+.submit {
+	margin: 20px auto;
+	width: 100px;
+}
+
+.submit input {
+	width: 100%;
+}
+
+.tr_back {
+	background-color: #eee;
+}
+
+.w-e-text-container {
+	min-height: 1000px;
+}
