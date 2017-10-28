@@ -3,12 +3,11 @@
 /*轮播图*/
 
 .e_slider_main {
-
-	height:575px;
-	
+	height: 575px;
 	position: relative;
 	overflow: hidden;
 }
+
 
 /*.e_slider_list {
 	margin: 0;
@@ -87,55 +86,57 @@
 .e_arrow_right {
 	right: 0;
 }*/
-.circle {
-				position: absolute;
-				z-index: 1;
-				left: 50%;
-				bottom: 20px;
-				font-size: 0;
-				padding: 4px 8px;
-				border-radius: 12px;
-				background-color: hsla(0, 0%, 100%,0.3);
-				text-align: center;
-			}
-			
-			.circle li {
-				display: inline-block;
-				margin-right: 10px;
-				border-radius: 50%;
-				width: 12px;
-				height: 12px;
-				background-color: #fff;
-				text-align: center;
-				cursor: pointer;
-			}
-			/*箭头*/
-			
-			.left {
-				left: 0;
-			}
-			
-			.fix {
-				display: none;
-				position: absolute;
-				z-index: 2;
-				top: 50%;
-				margin-top: -30px;
-				width: 30px;
-				height: 60px;
-				background-color: #333;
-				opacity: 0.4;
-				line-height: 60px;
-				text-align: center;
-				color: white;
-				cursor: pointer;
-				font-size: 16px;
-			}
-			
-			.right {
-				right: 0;
-			}
 
+.circle {
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	bottom: 20px;
+	font-size: 0;
+	padding: 4px 8px;
+	border-radius: 12px;
+	background-color: hsla(0, 0%, 100%, 0.3);
+	text-align: center;
+}
+
+.circle li {
+	display: inline-block;
+	margin-right: 10px;
+	border-radius: 50%;
+	width: 12px;
+	height: 12px;
+	background-color: #fff;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+/*箭头*/
+
+.left {
+	left: 0;
+}
+
+.fix {
+	display: none;
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	margin-top: -30px;
+	width: 30px;
+	height: 60px;
+	background-color: #333;
+	opacity: 0.4;
+	line-height: 60px;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.right {
+	right: 0;
+}
 
 
 /*结束*/
@@ -206,27 +207,47 @@
 .e_pic {
 	height: 222px;
 	display: inline-block;
+	overflow: hidden;
 }
 
 .e_cover {
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
 	display: inline-block;
 	position: absolute;
 	top: 0;
 	left: 0;
-	opacity: 0;
-	height: 233px;
+	opacity: 0.1;
+	height: 222px;
 	width: 222px;
 }
 
 
+/*改*/
+
+.e_hot_one:hover .e_cover {
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+	opacity: 0.1;
+	background-color: #BEBDBB;
+}
+
+
 /*改的*/
+
 .e_rectangle {
 	position: absolute;
-	-webkit-transition: 1s;
-	-moz-transition: 1s;
-	-ms-transition: 1s;
-	-o-transition: 1s;
-	transition: 1s;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
@@ -253,10 +274,12 @@
 	transform: rotate(45deg);
 	opacity: 1;
 }
-.e_img_kill img{
+
+.e_img_kill img {
 	display: block;
 }
-.e_img_kill{
+
+.e_img_kill {
 	background-color: #e9f3ff;
 	border-radius: 20px;
 	-webkit-transition: 1s;
@@ -265,7 +288,8 @@
 	-o-transition: 1s;
 	transition: 1s;
 }
-.e_img_kill:hover img{
+
+.e_img_kill:hover img {
 	border-radius: 111px;
 	-webkit-transition: 1s;
 	-moz-transition: 1s;
@@ -273,13 +297,14 @@
 	-o-transition: 1s;
 	transition: 1s;
 }
-.e_kill{
+
+.e_kill {
 	margin-top: 20px;
 }
-.e_img_kill_title{
+
+.e_img_kill_title {
 	padding-top: 10px;
 }
-
 
 
 /*结束*/
@@ -343,10 +368,29 @@
 	position: relative;
 	width: 222px;
 	margin-right: 8px;
-	overflow:hidden;
+	overflow: hidden;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+}
+
+.e_hot_one:hover {
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+	background-color: #F3F3F3;
 }
 
 .e_hot_one:hover img {
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
 	-webkit-transform: scale(1.1);
 	-moz-transform: scale(1.1);
 	-ms-transform: scale(1.1);
@@ -357,6 +401,11 @@
 .e_hot_one img {
 	width: 222px;
 	height: 222px;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
 }
 
 .e_shade {
@@ -385,7 +434,9 @@
 
 /*畅销品牌*/
 
+
 /*改正*/
+
 .e_bj {
 	height: 400px;
 	width: 100%;
@@ -411,10 +462,9 @@
 	width: 370px;
 	height: 220px;
 	background: white;
-	
 }
+
 .e_sell_box p {
-	
 	font-size: 20px;
 	opacity: 0;
 	padding: 15px 0;
@@ -422,14 +472,14 @@
 	text-align: center;
 	color: white;
 	background-color: #ddd;
--webkit-transition: 1s;
+	-webkit-transition: 1s;
 	-moz-transition: 1s;
 	-ms-transition: 1s;
 	-o-transition: 1s;
 	transition: 1s;
 }
+
 .e_sell_box1 p {
-	
 	font-size: 20px;
 	opacity: 0;
 	padding: 15px 0;
@@ -437,12 +487,13 @@
 	text-align: center;
 	color: white;
 	background-color: #ddd;
--webkit-transition: 1s;
+	-webkit-transition: 1s;
 	-moz-transition: 1s;
 	-ms-transition: 1s;
 	-o-transition: 1s;
 	transition: 1s;
 }
+
 .e_sell_box:hover img {
 	-webkit-transform: translate3d(0px, -15px, 0);
 	-moz-transform: translate3d(0px, -15px, 0);
@@ -450,6 +501,7 @@
 	-o-transform: translate3d(0px, -15px, 0);
 	transform: translate3d(0px, -15px, 0);
 }
+
 .e_sell_box1:hover img {
 	-webkit-transform: translate3d(0px, -15px, 0);
 	-moz-transform: translate3d(0px, -15px, 0);
@@ -457,20 +509,23 @@
 	-o-transform: translate3d(0px, -15px, 0);
 	transform: translate3d(0px, -15px, 0);
 }
-.e_sell_box img{
+
+.e_sell_box img {
 	-webkit-transition: 1s;
 	-moz-transition: 1s;
 	-ms-transition: 1s;
 	-o-transition: 1s;
 	transition: 1s;
 }
-.e_sell_box1 img{
+
+.e_sell_box1 img {
 	-webkit-transition: 1s;
 	-moz-transition: 1s;
 	-ms-transition: 1s;
 	-o-transition: 1s;
 	transition: 1s;
 }
+
 .e_sell_box:hover .e_sell_word {
 	-webkit-transition: 1s;
 	-moz-transition: 1s;
@@ -483,6 +538,7 @@
 	-o-transform: translate3d(0px, -15px, 0);
 	transform: translate3d(0px, -15px, 0);
 }
+
 .e_sell_box1:hover .e_sell_word {
 	-webkit-transition: 1s;
 	-moz-transition: 1s;
@@ -495,38 +551,38 @@
 	-o-transform: translate3d(0px, -15px, 0);
 	transform: translate3d(0px, -15px, 0);
 }
-.e_sell_box:hover p{
+
+.e_sell_box:hover p {
 	-webkit-transition: 1s;
 	-moz-transition: 1s;
 	-ms-transition: 1s;
 	-o-transition: 1s;
 	transition: 1s;
 	opacity: 1;
-	-webkit-transform: translate3d(0,-30px,0);
-	-moz-transform: translate3d(0,-30px,0);
-	-ms-transform: translate3d(0,-30px,0);
-	-o-transform: translate3d(0,-30px,0);
-	transform: translate3d(0,-30px,0);
+	-webkit-transform: translate3d(0, -30px, 0);
+	-moz-transform: translate3d(0, -30px, 0);
+	-ms-transform: translate3d(0, -30px, 0);
+	-o-transform: translate3d(0, -30px, 0);
+	transform: translate3d(0, -30px, 0);
 }
-.e_sell_box1:hover p{
+
+.e_sell_box1:hover p {
 	-webkit-transition: 1s;
 	-moz-transition: 1s;
 	-ms-transition: 1s;
 	-o-transition: 1s;
 	transition: 1s;
 	opacity: 1;
-	-webkit-transform: translate3d(0,-30px,0);
-	-moz-transform: translate3d(0,-30px,0);
-	-ms-transform: translate3d(0,-30px,0);
-	-o-transform: translate3d(0,-30px,0);
-	transform: translate3d(0,-30px,0);
+	-webkit-transform: translate3d(0, -30px, 0);
+	-moz-transform: translate3d(0, -30px, 0);
+	-ms-transform: translate3d(0, -30px, 0);
+	-o-transform: translate3d(0, -30px, 0);
+	transform: translate3d(0, -30px, 0);
 }
+
 .e_sell_img {
 	padding-top: 10px;
-	
 }
-
-
 
 .e_sell_box1 {
 	overflow: hidden;
