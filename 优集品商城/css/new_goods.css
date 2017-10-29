@@ -52,7 +52,6 @@ a:hover {
 	-o-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
 	background-color: #bebbbd;
-	/*background-color: rgba(0,0,0,0.1);*/
 	width: 100%;
 	height: 100%;
 	opacity: 0.1;
@@ -226,6 +225,27 @@ a:hover {
 }
 
 .b_goods_tasty .b_li:hover img {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+}
+
+.b_good_list .b_li img {
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+}
+
+.b_good_list .b_li:hover img {
 	-webkit-transform: scale(1.1);
 	-moz-transform: scale(1.1);
 	-ms-transform: scale(1.1);

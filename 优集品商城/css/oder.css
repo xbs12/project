@@ -145,7 +145,7 @@ a:hover li {
 }
 
 .a_order_kind_real {
-	width: 150px;
+	width: 130px;
 	font-size: 14px;
 	text-align: center;
 	padding-top: 26px;
@@ -153,7 +153,7 @@ a:hover li {
 }
 
 .a_order_kind_order {
-	width: 90px;
+	width: 60px;
 	font-size: 14px;
 	text-align: center;
 	padding-top: 30px;
